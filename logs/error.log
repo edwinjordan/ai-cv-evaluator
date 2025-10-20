@@ -1,0 +1,360 @@
+[31merror[39m: Embedding generation failed:
+[31merror[39m: Embedding generation failed:
+[31merror[39m: Embedding generation failed:
+[31merror[39m: Embedding generation failed:
+[31merror[39m: Embedding generation failed:
+[31merror[39m: Embedding generation failed:
+[31merror[39m: Embedding generation failed:
+[31merror[39m: LLM completion failed:
+[31merror[39m: Evaluation failed: CV evaluation failed: Invalid response structure from LLM API
+[31merror[39m: Evaluation processing failed for ID: 68f4a562f8a9d0f4fbe8a84c CV evaluation failed: Invalid response structure from LLM API
+[31merror[39m: Server error: listen EADDRINUSE: address already in use :::3000
+[31merror[39m: Port 3000 is already in use
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:101:10)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:38:109
+    at new Promise (<anonymous>)
+[31merror[39m: POST /v1/cv-evaluation/evaluate 401 - 64.565 ms - message: Please authenticate
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:70:12)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:38:109
+    at new Promise (<anonymous>)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:37:12
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+[31merror[39m: GET /v1/cv-evaluation/result/eval_mgxh0yom_f80ff507d9d4 401 - 24.480 ms - message: Please authenticate
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:70:12)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:38:109
+    at new Promise (<anonymous>)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:37:12
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+[31merror[39m: GET /v1/cv-evaluation/result/eval_mgxh0yom_f80ff507d9d4 401 - 8.475 ms - message: Please authenticate
+[31merror[39m: LLM completion failed:
+[31merror[39m: Evaluation failed: CV evaluation failed: Invalid response structure from LLM API
+[31merror[39m: Evaluation processing failed for ID: 68f4a97d8db8349515b9298c CV evaluation failed: Invalid response structure from LLM API
+[31merror[39m: LLM completion failed:
+[31merror[39m: Evaluation failed: CV evaluation failed: Invalid response structure from LLM API
+[31merror[39m: Evaluation processing failed for ID: 68f4aa1c8db8349515b92993 CV evaluation failed: Invalid response structure from LLM API
+[31merror[39m: Error: Evaluation job not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/controllers/evaluate.controller.js:91:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[31merror[39m: GET /v1/cv-evaluation/result/68f4aa1c8db8349515b92993 404 - 53.644 ms - message: Evaluation job not found
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[31merror[39m: Evaluation processing failed for ID: 68f4ae5143b7f65d0fd8413e Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:101:10)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:38:109
+    at new Promise (<anonymous>)
+[31merror[39m: POST /v1/cv-evaluation/evaluate 401 - 118.493 ms - message: Please authenticate
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits
+[31merror[39m: Evaluation processing failed for ID: 68f4afaefd0f12dc7f6d81d7 Overall recommendation generation failed: Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: No auth credentials found
+[31merror[39m: Evaluation processing failed for ID: 68f4b3d72cd9351dfec9c285 Overall recommendation generation failed: No auth credentials found
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: No auth credentials found
+[31merror[39m: Evaluation processing failed for ID: 68f4b410375b081f2a63c182 Overall recommendation generation failed: No auth credentials found
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: No auth credentials found
+[31merror[39m: Evaluation processing failed for ID: 68f4b47a02977cb05e87962b Overall recommendation generation failed: No auth credentials found
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[31merror[39m: Evaluation processing failed for ID: 68f4bfe1639b0daedd3a454a Overall recommendation generation failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[31merror[39m: Evaluation processing failed for ID: 68f4c276cf2c3e65d7c640fb Overall recommendation generation failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: OpenAI Quota Exceeded:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[31merror[39m: Evaluation processing failed for ID: 68f4cad98e5c50353d121c4b Overall recommendation generation failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[31merror[39m: Evaluation processing failed for ID: 68f4cb02af249c0fcd5320cd Overall recommendation generation failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[31merror[39m: Evaluation processing failed for ID: 68f4cbeb4f02f9dbe1ab97eb Overall recommendation generation failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[31merror[39m: Evaluation processing failed for ID: 68f4cd7908397c10d5c8d0a8 Overall recommendation generation failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: connect ECONNREFUSED 127.0.0.1:27017
+[31merror[39m: Failed to fetch LLM models:
+[31merror[39m: openai API connection failed:
+[31merror[39m: Request failed with status code 401
+[31merror[39m: Request failed with status code 401
+[31merror[39m: Failed to fetch LLM models:
+[31merror[39m: openrouter API connection failed:
+[31merror[39m: Request failed with status code 401
+[31merror[39m: Request failed with status code 401
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits
+[31merror[39m: Evaluation processing failed for ID: 68f583438086f46c9227d3cb Overall recommendation generation failed: Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits
+[31merror[39m: Evaluation processing failed for ID: 68f583c7d91957c062b282c7 Overall recommendation generation failed: Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits
+[31merror[39m: LLM API error response:
+[31merror[39m: All embedding generation methods failed:
+[31merror[39m: LLM API error response:
+[31merror[39m: All embedding generation methods failed:
+[31merror[39m: LLM API error response:
+[31merror[39m: All embedding generation methods failed:
+[31merror[39m: LLM API error response:
+[31merror[39m: All embedding generation methods failed:
+[31merror[39m: LLM API error response:
+[31merror[39m: All embedding generation methods failed:
+[31merror[39m: LLM API error response:
+[31merror[39m: All embedding generation methods failed:
+[31merror[39m: LLM API error response:
+[31merror[39m: All embedding generation methods failed:
+[31merror[39m: LLM API error response:
+[31merror[39m: CV evaluation error: sleep is not defined, using fallback evaluation
+[31merror[39m: LLM API error response:
+[31merror[39m: Project evaluation error: sleep is not defined, using fallback evaluation
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: sleep is not defined
+[31merror[39m: Evaluation processing failed for ID: 68f5a2b6e031497d79c734c1 sleep is not defined
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits
+[31merror[39m: Evaluation processing failed for ID: 68f5a49ceca00c9b868da1fa Overall recommendation generation failed: Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
