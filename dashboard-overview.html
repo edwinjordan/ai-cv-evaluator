@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Evaluation Dashboard - Overview</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .nav-active {
+            background: rgba(255, 255, 255, 0.2);
+            border-left: 4px solid white;
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-white mb-2">
+                <i class="fas fa-tachometer-alt mr-3"></i>
+                CV Evaluation Dashboard
+            </h1>
+            <p class="text-white/80">Comprehensive overview of your evaluation history</p>
+        </div>
+
+        <!-- Navigation -->
+        <div class="card rounded-lg p-2 mb-8">
+            <div class="flex flex-wrap gap-2">
+                <button onclick="showOverview()" id="overviewBtn" 
+                        class="nav-active px-4 py-2 rounded-md text-white transition duration-300">
+                    <i class="fas fa-chart-pie mr-2"></i>Overview
+                </button>
+                <button onclick="showEvaluations()" id="evaluationsBtn" 
+                        class="px-4 py-2 rounded-md text-gray-700 hover:bg-gray-100 transition duration-300">
+                    <i class="fas fa-list mr-2"></i>All Evaluations
+                </button>
+                <button onclick="showDetailedResult()" id="detailBtn" 
+                        class="px-4 py-2 rounded-md text-gray-700 hover:bg-gray-100 transition duration-300">
+                    <i class="fas fa-search mr-2"></i>View Result
+                </button>
+            </div>
+        </div>
+
+        <!-- Overview Section -->
+        <div id="overviewSection">
+            <!-- Statistics Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-3xl text-blue-600 mb-2">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <div class="text-2xl font-bold text-gray-800" id="totalEvaluations">0</div>
+                    <div class="text-sm text-gray-600">Total Evaluations</div>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-3xl text-green-600 mb-2">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="text-2xl font-bold text-gray-800" id="completedEvaluations">0</div>
+                    <div class="text-sm text-gray-600">Completed</div>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-3xl text-purple-600 mb-2">
+                        <i class="fas fa-percentage"></i>
+                    </div>
+                    <div class="text-2xl font-bold text-gray-800" id="avgCvMatch">0%</div>
+                    <div class="text-sm text-gray-600">Avg CV Match</div>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-3xl text-orange-600 mb-2">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="text-2xl font-bold text-gray-800" id="avgProjectScore">0.0</div>
+                    <div class="text-sm text-gray-600">Avg Project Score</div>
+                </div>
+            </div>
+
+            <!-- Charts Section -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                <!-- Status Distribution -->
+                <div class="card rounded-lg p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                        <i class="fas fa-chart-doughnut mr-2"></i>Status Distribution
+                    </h3>
+                    <canvas id="statusChart" width="400" height="300"></canvas>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="card rounded-lg p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                        <i class="fas fa-clock mr-2"></i>Recent Evaluations
+                    </h3>
+                    <div id="recentJobs" class="space-y-3 max-h-64 overflow-y-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Evaluations List Section -->
+        <div id="evaluationsSection" style="display: none;">
+            <div class="card rounded-lg p-6 mb-8">
+                <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        <i class="fas fa-list mr-2"></i>All Evaluations
+                    </h3>
+                    <div class="flex gap-2">
+                        <select id="statusFilter" class="px-3 py-2 border border-gray-300 rounded-md">
+                            <option value="">All Status</option>
+                            <option value="completed">Completed</option>
+                            <option value="processing">Processing</option>
+                            <option value="queued">Queued</option>
+                            <option value="failed">Failed</option>
+                        </select>
+                        <button onclick="loadAllEvaluations()" 
+                                class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition duration-300">
+                            <i class="fas fa-sync mr-2"></i>Refresh
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="overflow-x-auto">
+                    <table class="w-full">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Job Details</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Results</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Created</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="evaluationsTableBody" class="bg-white divide-y divide-gray-200">
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- Pagination -->
+                <div id="pagination" class="flex items-center justify-between mt-6">
+                    <div class="text-sm text-gray-600" id="paginationInfo"></div>
+                    <div class="flex gap-2" id="paginationButtons"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Detailed Result Section -->
+        <div id="detailSection" style="display: none;">
+            <div class="card rounded-lg p-6 mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                    <i class="fas fa-search mr-2"></i>View Detailed Result
+                </h3>
+                <div class="flex gap-4">
+                    <input type="text" id="jobIdInput" placeholder="Enter Job ID" 
+                           class="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <button onclick="viewDetailedResult()" 
+                            class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md transition duration-300">
+                        <i class="fas fa-search mr-2"></i>View Details
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loadingCard" class="card rounded-lg p-8 text-center" style="display: none;">
+            <div class="text-6xl text-blue-600 mb-4">
+                <i class="fas fa-spinner fa-spin"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Loading...</h3>
+            <p class="text-gray-600">Please wait while we fetch your data.</p>
+        </div>
+
+        <!-- Error Display -->
+        <div id="errorCard" class="card rounded-lg p-6 border-l-4 border-red-500 bg-red-50" style="display: none;">
+            <div class="flex items-center">
+                <div class="text-red-600 mr-3">
+                    <i class="fas fa-exclamation-triangle text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-red-800">Error</h3>
+                    <p id="errorMessage" class="text-red-700"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let statusChart;
+        let currentPage = 1;
+        let currentFilter = '';
+        
+        // Configuration
+        const API_BASE_URL = 'http://localhost:3000/v1';
+        
+        // Get JWT token from localStorage or prompt user
+        function getAuthToken() {
+            let token = localStorage.getItem('authToken');
+            if (!token) {
+                token = prompt('Please enter your JWT token:');
+                if (token) {
+                    localStorage.setItem('authToken', token);
+                }
+            }
+            return token;
+        }
+
+        // Navigation functions
+        function showOverview() {
+            setActiveTab('overviewBtn');
+            document.getElementById('overviewSection').style.display = 'block';
+            document.getElementById('evaluationsSection').style.display = 'none';
+            document.getElementById('detailSection').style.display = 'none';
+            loadStatistics();
+        }
+
+        function showEvaluations() {
+            setActiveTab('evaluationsBtn');
+            document.getElementById('overviewSection').style.display = 'none';
+            document.getElementById('evaluationsSection').style.display = 'block';
+            document.getElementById('detailSection').style.display = 'none';
+            loadAllEvaluations();
+        }
+
+        function showDetailedResult() {
+            setActiveTab('detailBtn');
+            document.getElementById('overviewSection').style.display = 'none';
+            document.getElementById('evaluationsSection').style.display = 'none';
+            document.getElementById('detailSection').style.display = 'block';
+        }
+
+        function setActiveTab(activeId) {
+            const tabs = ['overviewBtn', 'evaluationsBtn', 'detailBtn'];
+            tabs.forEach(id => {
+                const element = document.getElementById(id);
+                if (id === activeId) {
+                    element.className = 'nav-active px-4 py-2 rounded-md text-white transition duration-300';
+                } else {
+                    element.className = 'px-4 py-2 rounded-md text-gray-700 hover:bg-gray-100 transition duration-300';
+                }
+            });
+        }
+
+        // Load statistics for overview
+        async function loadStatistics() {
+            showLoading();
+            hideError();
+
+            try {
+                const token = getAuthToken();
+                if (!token) {
+                    throw new Error('Authentication token required');
+                }
+
+                const response = await fetch(`${API_BASE_URL}/dashboard/api/stats`, {
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (!response.ok) {
+                    if (response.status === 401) {
+                        localStorage.removeItem('authToken');
+                        throw new Error('Authentication failed. Please refresh and enter a valid token.');
+                    }
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                hideLoading();
+                displayStatistics(data);
+                
+            } catch (error) {
+                hideLoading();
+                showError(error.message);
+                console.error('Error loading statistics:', error);
+            }
+        }
+
+        // Display statistics
+        function displayStatistics(data) {
+            // Update statistics cards
+            document.getElementById('totalEvaluations').textContent = data.total_evaluations || 0;
+            document.getElementById('completedEvaluations').textContent = data.completed_evaluations || 0;
+            document.getElementById('avgCvMatch').textContent = 
+                data.average_cv_match_rate ? Math.round(data.average_cv_match_rate * 100) + '%' : '0%';
+            document.getElementById('avgProjectScore').textContent = 
+                data.average_project_score ? data.average_project_score.toFixed(1) : '0.0';
+
+            // Update status chart
+            updateStatusChart(data.status_breakdown);
+
+            // Update recent jobs
+            updateRecentJobs(data.recent_jobs);
+        }
+
+        // Update status chart
+        function updateStatusChart(statusBreakdown) {
+            const ctx = document.getElementById('statusChart').getContext('2d');
+            
+            if (statusChart) {
+                statusChart.destroy();
+            }
+            
+            const data = [
+                statusBreakdown.completed || 0,
+                statusBreakdown.processing || 0,
+                statusBreakdown.queued || 0,
+                statusBreakdown.failed || 0
+            ];
+            
+            const total = data.reduce((sum, val) => sum + val, 0);
+            
+            if (total === 0) {
+                // Show empty state
+                ctx.font = '16px Arial';
+                ctx.fillStyle = '#9CA3AF';
+                ctx.textAlign = 'center';
+                ctx.fillText('No evaluations yet', ctx.canvas.width / 2, ctx.canvas.height / 2);
+                return;
+            }
+            
+            statusChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Completed', 'Processing', 'Queued', 'Failed'],
+                    datasets: [{
+                        data: data,
+                        backgroundColor: [
+                            '#10B981', // Green for completed
+                            '#3B82F6', // Blue for processing
+                            '#F59E0B', // Orange for queued
+                            '#EF4444'  // Red for failed
+                        ],
+                        borderWidth: 2,
+                        borderColor: '#ffffff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+        }
+
+        // Update recent jobs
+        function updateRecentJobs(recentJobs) {
+            const container = document.getElementById('recentJobs');
+            container.innerHTML = '';
+            
+            if (recentJobs.length === 0) {
+                container.innerHTML = '<div class="text-gray-500 text-center py-4">No recent evaluations</div>';
+                return;
+            }
+            
+            recentJobs.forEach(job => {
+                const statusColors = {
+                    'completed': 'bg-green-100 text-green-800',
+                    'processing': 'bg-blue-100 text-blue-800',
+                    'queued': 'bg-yellow-100 text-yellow-800',
+                    'failed': 'bg-red-100 text-red-800'
+                };
+                
+                const div = document.createElement('div');
+                div.className = 'flex items-center justify-between p-3 bg-gray-50 rounded-lg';
+                div.innerHTML = `
+                    <div class="flex-1">
+                        <div class="font-medium text-gray-800">${job.job_title || 'Untitled Job'}</div>
+                        <div class="text-sm text-gray-600">${job.job_id}</div>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="px-2 py-1 text-xs rounded-full ${statusColors[job.status] || 'bg-gray-100 text-gray-800'}">
+                            ${job.status}
+                        </span>
+                        ${job.status === 'completed' ? 
+                            `<button onclick="viewJobDetails('${job.job_id}')" class="text-blue-600 hover:text-blue-800 text-sm">
+                                <i class="fas fa-eye"></i>
+                            </button>` : ''
+                        }
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        // Load all evaluations
+        async function loadAllEvaluations(page = 1) {
+            showLoading();
+            hideError();
+            currentPage = page;
+            currentFilter = document.getElementById('statusFilter').value;
+
+            try {
+                const token = getAuthToken();
+                if (!token) {
+                    throw new Error('Authentication token required');
+                }
+
+                let url = `${API_BASE_URL}/dashboard/api/evaluations?page=${page}&limit=10`;
+                if (currentFilter) {
+                    url += `&status=${currentFilter}`;
+                }
+
+                const response = await fetch(url, {
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (!response.ok) {
+                    if (response.status === 401) {
+                        localStorage.removeItem('authToken');
+                        throw new Error('Authentication failed. Please refresh and enter a valid token.');
+                    }
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                hideLoading();
+                displayEvaluations(data);
+                
+            } catch (error) {
+                hideLoading();
+                showError(error.message);
+                console.error('Error loading evaluations:', error);
+            }
+        }
+
+        // Display evaluations table
+        function displayEvaluations(data) {
+            const tbody = document.getElementById('evaluationsTableBody');
+            tbody.innerHTML = '';
+            
+            if (data.evaluations.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="5" class="px-6 py-4 text-center text-gray-500">
+                            No evaluations found
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+            
+            data.evaluations.forEach(evaluation => {
+                const statusColors = {
+                    'completed': 'bg-green-100 text-green-800',
+                    'processing': 'bg-blue-100 text-blue-800',
+                    'queued': 'bg-yellow-100 text-yellow-800',
+                    'failed': 'bg-red-100 text-red-800'
+                };
+                
+                const tr = document.createElement('tr');
+                tr.className = 'hover:bg-gray-50';
+                tr.innerHTML = `
+                    <td class="px-6 py-4">
+                        <div class="font-medium text-gray-900">${evaluation.job_title || 'Untitled'}</div>
+                        <div class="text-sm text-gray-500">${evaluation.job_id}</div>
+                        <div class="text-xs text-gray-400 mt-1">
+                            CV: ${evaluation.cv_document?.filename || 'N/A'}
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="px-2 py-1 text-xs rounded-full ${statusColors[evaluation.status] || 'bg-gray-100 text-gray-800'}">
+                            ${evaluation.status}
+                        </span>
+                        ${evaluation.error_message ? 
+                            `<div class="text-xs text-red-600 mt-1">${evaluation.error_message}</div>` : ''
+                        }
+                    </td>
+                    <td class="px-6 py-4">
+                        ${evaluation.status === 'completed' ? `
+                            <div class="text-sm">
+                                <div>CV: ${evaluation.cv_match_rate ? Math.round(evaluation.cv_match_rate * 100) + '%' : 'N/A'}</div>
+                                <div>Project: ${evaluation.project_score ? evaluation.project_score.toFixed(1) : 'N/A'}</div>
+                            </div>
+                        ` : '<span class="text-gray-400">-</span>'}
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="text-sm text-gray-900">
+                            ${new Date(evaluation.created_at).toLocaleDateString()}
+                        </div>
+                        <div class="text-xs text-gray-500">
+                            ${new Date(evaluation.created_at).toLocaleTimeString()}
+                        </div>
+                    </td>
+                    <td class="px-6 py-4">
+                        ${evaluation.status === 'completed' ? 
+                            `<button onclick="viewJobDetails('${evaluation.job_id}')" 
+                                    class="text-blue-600 hover:text-blue-800 text-sm">
+                                <i class="fas fa-eye mr-1"></i>View
+                            </button>` : 
+                            `<span class="text-gray-400">-</span>`
+                        }
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+            
+            updatePagination(data.pagination);
+        }
+
+        // Update pagination
+        function updatePagination(pagination) {
+            const info = document.getElementById('paginationInfo');
+            const buttons = document.getElementById('paginationButtons');
+            
+            const start = (pagination.page - 1) * pagination.limit + 1;
+            const end = Math.min(pagination.page * pagination.limit, pagination.total);
+            
+            info.textContent = `Showing ${start}-${end} of ${pagination.total} evaluations`;
+            
+            buttons.innerHTML = '';
+            
+            // Previous button
+            if (pagination.page > 1) {
+                const prevBtn = document.createElement('button');
+                prevBtn.className = 'px-3 py-1 text-sm bg-gray-200 hover:bg-gray-300 rounded transition duration-300';
+                prevBtn.innerHTML = '<i class="fas fa-chevron-left"></i>';
+                prevBtn.onclick = () => loadAllEvaluations(pagination.page - 1);
+                buttons.appendChild(prevBtn);
+            }
+            
+            // Page numbers
+            const startPage = Math.max(1, pagination.page - 2);
+            const endPage = Math.min(pagination.pages, pagination.page + 2);
+            
+            for (let i = startPage; i <= endPage; i++) {
+                const pageBtn = document.createElement('button');
+                pageBtn.className = i === pagination.page ? 
+                    'px-3 py-1 text-sm bg-blue-600 text-white rounded' :
+                    'px-3 py-1 text-sm bg-gray-200 hover:bg-gray-300 rounded transition duration-300';
+                pageBtn.textContent = i;
+                pageBtn.onclick = () => loadAllEvaluations(i);
+                buttons.appendChild(pageBtn);
+            }
+            
+            // Next button
+            if (pagination.page < pagination.pages) {
+                const nextBtn = document.createElement('button');
+                nextBtn.className = 'px-3 py-1 text-sm bg-gray-200 hover:bg-gray-300 rounded transition duration-300';
+                nextBtn.innerHTML = '<i class="fas fa-chevron-right"></i>';
+                nextBtn.onclick = () => loadAllEvaluations(pagination.page + 1);
+                buttons.appendChild(nextBtn);
+            }
+        }
+
+        // View job details
+        function viewJobDetails(jobId) {
+            window.open(`dashboard.html?jobId=${jobId}`, '_blank');
+        }
+
+        // View detailed result
+        function viewDetailedResult() {
+            const jobId = document.getElementById('jobIdInput').value.trim();
+            if (!jobId) {
+                showError('Please enter a job ID');
+                return;
+            }
+            viewJobDetails(jobId);
+        }
+
+        // Utility functions
+        function showLoading() {
+            document.getElementById('loadingCard').style.display = 'block';
+        }
+
+        function hideLoading() {
+            document.getElementById('loadingCard').style.display = 'none';
+        }
+
+        function showError(message) {
+            document.getElementById('errorCard').style.display = 'block';
+            document.getElementById('errorMessage').textContent = message;
+        }
+
+        function hideError() {
+            document.getElementById('errorCard').style.display = 'none';
+        }
+
+        // Event listeners
+        document.getElementById('statusFilter').addEventListener('change', () => {
+            loadAllEvaluations(1);
+        });
+
+        document.getElementById('jobIdInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                viewDetailedResult();
+            }
+        });
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            showOverview();
+        });
+    </script>
+</body>
+</html>

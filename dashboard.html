@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Evaluation Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .5; }
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-white mb-2">
+                <i class="fas fa-chart-line mr-3"></i>
+                CV Evaluation Dashboard
+            </h1>
+            <p class="text-white/80">Comprehensive analysis of CV and project evaluation</p>
+        </div>
+
+        <!-- Job Controls -->
+        <div class="card rounded-lg p-6 mb-8">
+            <div class="flex flex-wrap items-center gap-4">
+                <div class="flex-1 min-w-64">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Job ID</label>
+                    <input type="text" id="jobIdInput" placeholder="Enter job ID" 
+                           class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="flex gap-2">
+                    <button onclick="loadEvaluation()" 
+                            class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md transition duration-300">
+                        <i class="fas fa-search mr-2"></i>Load Results
+                    </button>
+                    <button onclick="refreshData()" 
+                            class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md transition duration-300">
+                        <i class="fas fa-sync-alt mr-2"></i>Refresh
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Status Card -->
+        <div id="statusCard" class="card rounded-lg p-6 mb-8" style="display: none;">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800">Evaluation Status</h3>
+                    <div id="statusContent" class="mt-2"></div>
+                </div>
+                <div id="statusIcon" class="text-4xl"></div>
+            </div>
+        </div>
+
+        <!-- Main Dashboard Content -->
+        <div id="dashboardContent" style="display: none;">
+            <!-- Overview Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-3xl text-blue-600 mb-2">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="text-2xl font-bold text-gray-800" id="cvMatchRate">0%</div>
+                    <div class="text-sm text-gray-600">CV Match Rate</div>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-3xl text-green-600 mb-2">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="text-2xl font-bold text-gray-800" id="projectScore">0.0</div>
+                    <div class="text-sm text-gray-600">Project Score</div>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-3xl text-purple-600 mb-2">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="text-2xl font-bold text-gray-800" id="processingTime">0s</div>
+                    <div class="text-sm text-gray-600">Processing Time</div>
+                </div>
+                
+            </div>
+
+            <!-- Job Information -->
+            <div class="card rounded-lg p-6 mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                    <i class="fas fa-info-circle mr-2"></i>Job Information
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <div class="text-sm text-gray-600">Job Title</div>
+                        <div class="font-medium" id="jobTitle">-</div>
+                    </div>
+                    <div>
+                        <div class="text-sm text-gray-600">Evaluation Date</div>
+                        <div class="font-medium" id="evaluationDate">-</div>
+                    </div>
+                    <div>
+                        <div class="text-sm text-gray-600">CV Document</div>
+                        <div class="font-medium" id="cvDocument">-</div>
+                    </div>
+                    <div>
+                        <div class="text-sm text-gray-600">Project Document</div>
+                        <div class="font-medium" id="projectDocument">-</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Analysis -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                <!-- CV Strengths & Weaknesses -->
+                <div class="card rounded-lg p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                        <i class="fas fa-balance-scale mr-2"></i>CV Analysis
+                    </h3>
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="font-medium text-green-700 mb-2">
+                                <i class="fas fa-plus-circle mr-1"></i>Strengths
+                            </h4>
+                            <ul id="cvStrengths" class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-red-700 mb-2">
+                                <i class="fas fa-minus-circle mr-1"></i>Areas for Improvement
+                            </h4>
+                            <ul id="cvWeaknesses" class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-orange-700 mb-2">
+                                <i class="fas fa-exclamation-triangle mr-1"></i>Missing Skills
+                            </h4>
+                            <ul id="missingSkills" class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Strengths & Improvements -->
+                <div class="card rounded-lg p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                        <i class="fas fa-code mr-2"></i>Project Analysis
+                    </h3>
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="font-medium text-green-700 mb-2">
+                                <i class="fas fa-star mr-1"></i>Strengths
+                            </h4>
+                            <ul id="projectStrengths" class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-blue-700 mb-2">
+                                <i class="fas fa-arrow-up mr-1"></i>Suggested Improvements
+                            </h4>
+                            <ul id="projectImprovements" class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Feedback -->
+            <div class="card rounded-lg p-6 mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                    <i class="fas fa-comments mr-2"></i>Detailed Feedback
+                </h3>
+                <div id="detailedFeedback" class="text-gray-700 leading-relaxed">
+                </div>
+            </div>
+
+            <!-- Recommendations -->
+            <div class="card rounded-lg p-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                    <i class="fas fa-lightbulb mr-2"></i>Recommendations
+                </h3>
+                <div id="recommendationsList" class="space-y-3">
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Display -->
+        <div id="errorCard" class="card rounded-lg p-6 border-l-4 border-red-500 bg-red-50" style="display: none;">
+            <div class="flex items-center">
+                <div class="text-red-600 mr-3">
+                    <i class="fas fa-exclamation-triangle text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-red-800">Error</h3>
+                    <p id="errorMessage" class="text-red-700"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loadingCard" class="card rounded-lg p-8 text-center" style="display: none;">
+            <div class="text-6xl text-blue-600 mb-4 pulse">
+                <i class="fas fa-spinner fa-spin"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Loading Evaluation Results...</h3>
+            <p class="text-gray-600">Please wait while we fetch your evaluation data.</p>
+        </div>
+    </div>
+
+    <script>
+        let cvChart, projectChart;
+        
+        // Configuration
+        const API_BASE_URL = 'http://localhost:3000/v1';
+        
+        // Get JWT token from localStorage or prompt user
+        function getAuthToken() {
+            let token = localStorage.getItem('authToken');
+            if (!token) {
+                token = prompt('Please enter your JWT token:');
+                if (token) {
+                    localStorage.setItem('authToken', token);
+                }
+            }
+            return token;
+        }
+
+        // Load evaluation results
+        async function loadEvaluation() {
+            const jobId = document.getElementById('jobIdInput').value.trim();
+            if (!jobId) {
+                showError('Please enter a job ID');
+                return;
+            }
+
+            showLoading();
+            hideError();
+
+            try {
+                const token = getAuthToken();
+                if (!token) {
+                    throw new Error('Authentication token required');
+                }
+
+                const response = await fetch(`${API_BASE_URL}/cv-evaluation/result/${jobId}`, {
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (!response.ok) {
+                    if (response.status === 401) {
+                        localStorage.removeItem('authToken');
+                        throw new Error('Authentication failed. Please refresh and enter a valid token.');
+                    }
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                hideLoading();
+                displayResults(data);
+                
+            } catch (error) {
+                hideLoading();
+                showError(error.message);
+                console.error('Error loading evaluation:', error);
+            }
+        }
+
+        // Display evaluation results
+        function displayResults(data) {
+            hideError();
+            
+            // Show status
+            showStatus(data.status, data);
+            
+            if (data.status === 'completed' && data.results) {
+                document.getElementById('dashboardContent').style.display = 'block';
+                
+                // Update overview cards
+                updateOverviewCards(data);
+                
+                // Update job information
+                updateJobInformation(data);
+                
+                // Update charts
+               // updateCharts(data.results);
+                
+                // Update detailed analysis
+                updateDetailedAnalysis(data.results);
+                
+                // Update feedback and recommendations
+                updateFeedbackAndRecommendations(data.results);
+                
+            } else {
+                document.getElementById('dashboardContent').style.display = 'none';
+            }
+        }
+
+        // Show status
+        function showStatus(status, data) {
+            const statusCard = document.getElementById('statusCard');
+            const statusContent = document.getElementById('statusContent');
+            const statusIcon = document.getElementById('statusIcon');
+            
+            statusCard.style.display = 'block';
+            
+            const statusConfig = {
+                'queued': {
+                    icon: '<i class="fas fa-clock text-yellow-500"></i>',
+                    html: '<span class="status-badge"><span class="w-2 h-2 bg-yellow-500 rounded-full pulse"></span><span class="text-yellow-700 font-medium">Queued</span></span><div class="text-sm text-gray-600 mt-1">Evaluation is waiting to be processed</div>'
+                },
+                'processing': {
+                    icon: '<i class="fas fa-cog fa-spin text-blue-500"></i>',
+                    html: '<span class="status-badge"><span class="w-2 h-2 bg-blue-500 rounded-full pulse"></span><span class="text-blue-700 font-medium">Processing</span></span><div class="text-sm text-gray-600 mt-1">AI is analyzing your CV and project</div>'
+                },
+                'completed': {
+                    icon: '<i class="fas fa-check-circle text-green-500"></i>',
+                    html: '<span class="status-badge"><span class="w-2 h-2 bg-green-500 rounded-full"></span><span class="text-green-700 font-medium">Completed</span></span><div class="text-sm text-gray-600 mt-1">Evaluation completed successfully</div>'
+                },
+                'failed': {
+                    icon: '<i class="fas fa-times-circle text-red-500"></i>',
+                    html: '<span class="status-badge"><span class="w-2 h-2 bg-red-500 rounded-full"></span><span class="text-red-700 font-medium">Failed</span></span><div class="text-sm text-gray-600 mt-1">' + (data.error?.message || 'Evaluation failed') + '</div>'
+                }
+            };
+            
+            const config = statusConfig[status] || statusConfig['queued'];
+            statusContent.innerHTML = config.html;
+            statusIcon.innerHTML = config.icon;
+        }
+
+        // Update overview cards
+        function updateOverviewCards(data) {
+            document.getElementById('cvMatchRate').textContent = 
+                data.results?.cv_match_rate ? Math.round(data.results.cv_match_rate * 100) + '%' : '0%';
+            
+            document.getElementById('projectScore').textContent = 
+                data.results?.project_score ? data.results.project_score.toFixed(1) : '0.0';
+            
+            document.getElementById('processingTime').textContent = 
+                data.processing_time_seconds ? data.processing_time_seconds + 's' : '0s';
+                
+            // Normalize recommendation text
+            let recText = data.results?.overall_recommendation || 'PENDING';
+            if (typeof recText === 'string') {
+                if (recText.includes('HIRE') && !recText.includes('CONDITIONAL')) {
+                    recText = 'HIRE';
+                } else if (recText.includes('CONDITIONAL')) {
+                    recText = 'CONDITIONAL';
+                } else if (recText.includes('REJECT')) {
+                    recText = 'REJECT';
+                }
+            }
+            //document.getElementById('recommendation').textContent = recText;
+        }
+
+        // Update job information
+        function updateJobInformation(data) {
+            document.getElementById('jobTitle').textContent = data.job_title || '-';
+            document.getElementById('evaluationDate').textContent = 
+                data.created_at ? new Date(data.created_at).toLocaleString() : '-';
+            document.getElementById('cvDocument').textContent = 
+                data.cv_document?.original_name || '-';
+            document.getElementById('projectDocument').textContent = 
+                data.project_document?.original_name || '-';
+        }
+
+        // Update charts
+        function updateCharts(results) {
+            updateCVChart(results);
+            updateProjectChart(results);
+        }
+
+        // Update CV Analysis Chart
+        function updateCVChart(results) {
+            const ctx = document.getElementById('cvAnalysisChart').getContext('2d');
+            
+            if (cvChart) {
+                cvChart.destroy();
+            }
+            
+            const cvData = results.cv_analysis || {};
+            
+            cvChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Technical Skills', 'Experience Level', 'Achievements', 'Cultural Fit'],
+                    datasets: [{
+                        label: 'CV Breakdown Scores',
+                        data: [
+                            (cvData.technical_skills || 0) * 100,
+                            (cvData.experience_match || 0) * 100,
+                            85, // Default achievement score
+                            82  // Default cultural fit score
+                        ],
+                        backgroundColor: [
+                            'rgba(59, 130, 246, 0.8)',
+                            'rgba(16, 185, 129, 0.8)',
+                            'rgba(245, 158, 11, 0.8)',
+                            'rgba(139, 92, 246, 0.8)'
+                        ],
+                        borderColor: [
+                            'rgb(59, 130, 246)',
+                            'rgb(16, 185, 129)',
+                            'rgb(245, 158, 11)',
+                            'rgb(139, 92, 246)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+        }
+
+        // Update Project Analysis Chart
+        function updateProjectChart(results) {
+            const ctx = document.getElementById('projectAnalysisChart').getContext('2d');
+            
+            if (projectChart) {
+                projectChart.destroy();
+            }
+            
+            const projectData = results.project_analysis || {};
+            
+            projectChart = new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['Technical Quality', 'Code Quality', 'Resilience', 'Documentation', 'Creativity'],
+                    datasets: [{
+                        label: 'Project Scores',
+                        data: [
+                            projectData.technical_quality || 3,
+                            projectData.complexity_level || 3,
+                            4, // Default resilience
+                            projectData.documentation_quality || 3,
+                            projectData.innovation_score || 3
+                        ],
+                        backgroundColor: 'rgba(34, 197, 94, 0.2)',
+                        borderColor: 'rgb(34, 197, 94)',
+                        borderWidth: 2,
+                        pointBackgroundColor: 'rgb(34, 197, 94)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgb(34, 197, 94)'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            max: 5,
+                            ticks: {
+                                stepSize: 1
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+        }
+
+        // Update detailed analysis
+        function updateDetailedAnalysis(results) {
+            const cvAnalysis = results.cv_analysis || {};
+            const projectAnalysis = results.project_analysis || {};
+            
+            // CV Strengths
+            const cvStrengths = document.getElementById('cvStrengths');
+            cvStrengths.innerHTML = '';
+            (cvAnalysis.strengths || ['Strong technical background']).forEach(strength => {
+                const li = document.createElement('li');
+                li.textContent = strength;
+                cvStrengths.appendChild(li);
+            });
+            
+            // CV Weaknesses
+            const cvWeaknesses = document.getElementById('cvWeaknesses');
+            cvWeaknesses.innerHTML = '';
+            (cvAnalysis.weaknesses || ['Continue developing skills']).forEach(weakness => {
+                const li = document.createElement('li');
+                li.textContent = weakness;
+                cvWeaknesses.appendChild(li);
+            });
+            
+            // Missing Skills
+            const missingSkills = document.getElementById('missingSkills');
+            missingSkills.innerHTML = '';
+            const skills = cvAnalysis.missing_skills || [];
+            if (skills.length === 0) {
+                const li = document.createElement('li');
+                li.textContent = 'No significant skills gaps identified';
+                li.className = 'text-green-600';
+                missingSkills.appendChild(li);
+            } else {
+                skills.forEach(skill => {
+                    const li = document.createElement('li');
+                    li.textContent = skill;
+                    missingSkills.appendChild(li);
+                });
+            }
+            
+            // Project Strengths
+            const projectStrengths = document.getElementById('projectStrengths');
+            projectStrengths.innerHTML = '';
+            (projectAnalysis.strengths || ['Good technical implementation']).forEach(strength => {
+                const li = document.createElement('li');
+                li.textContent = strength;
+                projectStrengths.appendChild(li);
+            });
+            
+            // Project Improvements
+            const projectImprovements = document.getElementById('projectImprovements');
+            projectImprovements.innerHTML = '';
+            (projectAnalysis.improvements || ['Continue current practices']).forEach(improvement => {
+                const li = document.createElement('li');
+                li.textContent = improvement;
+                projectImprovements.appendChild(li);
+            });
+        }
+
+        // Update feedback and recommendations
+        function updateFeedbackAndRecommendations(results) {
+            // Detailed Feedback
+            const detailedFeedback = document.getElementById('detailedFeedback');
+            detailedFeedback.innerHTML = results.detailed_feedback || 'Evaluation completed successfully. Please review the analysis above for detailed insights.';
+            
+            // Recommendations
+            const recommendationsList = document.getElementById('recommendationsList');
+            recommendationsList.innerHTML = '';
+            const recommendations = results.recommendations || ['Based on the evaluation, continue developing your skills and experience.'];
+            
+            recommendations.forEach((rec, index) => {
+                const div = document.createElement('div');
+                div.className = 'flex items-start space-x-3 p-3 bg-blue-50 rounded-lg';
+                div.innerHTML = `
+                    <div class="flex-shrink-0 w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
+                        ${index + 1}
+                    </div>
+                    <div class="text-gray-700">${rec}</div>
+                `;
+                recommendationsList.appendChild(div);
+            });
+        }
+
+        // Utility functions
+        function showLoading() {
+            document.getElementById('loadingCard').style.display = 'block';
+            document.getElementById('dashboardContent').style.display = 'none';
+            document.getElementById('statusCard').style.display = 'none';
+        }
+
+        function hideLoading() {
+            document.getElementById('loadingCard').style.display = 'none';
+        }
+
+        function showError(message) {
+            document.getElementById('errorCard').style.display = 'block';
+            document.getElementById('errorMessage').textContent = message;
+            document.getElementById('dashboardContent').style.display = 'none';
+            document.getElementById('statusCard').style.display = 'none';
+        }
+
+        function hideError() {
+            document.getElementById('errorCard').style.display = 'none';
+        }
+
+        function refreshData() {
+            loadEvaluation();
+        }
+
+        // Auto-refresh for processing jobs
+        let refreshInterval;
+        function startAutoRefresh() {
+            refreshInterval = setInterval(() => {
+                const jobId = document.getElementById('jobIdInput').value.trim();
+                if (jobId) {
+                    loadEvaluation();
+                }
+            }, 10000); // Refresh every 10 seconds
+        }
+
+        function stopAutoRefresh() {
+            if (refreshInterval) {
+                clearInterval(refreshInterval);
+            }
+        }
+
+        // Handle Enter key in job ID input
+        document.getElementById('jobIdInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                loadEvaluation();
+            }
+        });
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check for job ID in URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const jobId = urlParams.get('jobId');
+            if (jobId) {
+                document.getElementById('jobIdInput').value = jobId;
+                loadEvaluation();
+            }
+        });
+    </script>
+</body>
+</html>

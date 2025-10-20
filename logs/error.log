@@ -358,3 +358,410 @@
 [31merror[39m: Evaluation processing failed for ID: 68f5a49ceca00c9b868da1fa Overall recommendation generation failed: Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits
 [31merror[39m: LLM API error response:
 [31merror[39m: LLM API error response:
+[31merror[39m: LLM completion failed:
+[31merror[39m: LLM completion failed:
+[31merror[39m: LLM completion failed:
+[31merror[39m: LLM completion failed:
+[31merror[39m: LLM completion failed:
+[31merror[39m: LLM completion failed:
+[31merror[39m: LLM completion failed:
+[31merror[39m: LLM completion failed:
+[31merror[39m: LLM completion failed:
+[31merror[39m: LLM completion failed:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: retryWithBackoff is not defined
+[31merror[39m: Evaluation processing failed for ID: 68f623c99ff13c3b8d48a319 Overall recommendation generation failed: retryWithBackoff is not defined
+[31merror[39m: Server error: listen EADDRINUSE: address already in use :::3000
+[31merror[39m: Port 3000 is already in use
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: Evaluation processing failed for ID: 68f62503c32de1883657834a Overall recommendation generation failed: User not found.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: Evaluation processing failed for ID: 68f62574ad6cd34be5186f90 Overall recommendation generation failed: User not found.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: Evaluation processing failed for ID: 68f62689ad6cd34be5186f9b Overall recommendation generation failed: User not found.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: Evaluation processing failed for ID: 68f628ab825b4464291c8c39 Overall recommendation generation failed: User not found.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: LLM API error response:
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:58:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at initialize (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:188:7)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:214:15)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:219:13
+[31merror[39m: GET /favicon.ico 404 - 12.152 ms - message: Not found
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:58:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at initialize (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:188:7)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:214:15)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:219:13
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 4.489 ms - message: Not found
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:58:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at initialize (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:188:7)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:214:15)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:219:13
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 10.683 ms - message: Not found
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:58:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at initialize (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:188:7)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:214:15)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:219:13
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 23.899 ms - message: Not found
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:58:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at initialize (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:188:7)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:214:15)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:219:13
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 25.347 ms - message: Not found
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.655 ms - message: -
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.297 ms - message: -
+[31merror[39m: Server error: listen EADDRINUSE: address already in use :::3000
+[31merror[39m: Port 3000 is already in use
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.084 ms - message: -
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:101:10)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:38:109
+    at new Promise (<anonymous>)
+[31merror[39m: GET /v1/dashboard/api/stats 401 - 28.220 ms - message: Please authenticate
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:101:10)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:38:109
+    at new Promise (<anonymous>)
+[31merror[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 401 - 32.055 ms - message: Please authenticate
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 0.915 ms - message: -
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 0.561 ms - message: -
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 2.291 ms - message: -
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.353 ms - message: -
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.411 ms - message: -
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.622 ms - message: -
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 0.957 ms - message: -
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.341 ms - message: -
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:101:10)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:38:109
+    at new Promise (<anonymous>)
+[31merror[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 401 - 9.425 ms - message: Please authenticate
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 0.794 ms - message: -
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 0.520 ms - message: -
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:107:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:265:14)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+[31merror[39m: GET /v1/dashboard/dashboard.html?jobId=eval_mgz43w0p_38e8a1fb70a8 404 - 5.800 ms - message: Not found
+[31merror[39m: Error: Email already taken
+    at Object.createUser (file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/services/user.service.js:14:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/controllers/auth.controller.js:6:16
+[31merror[39m: POST /v1/auth/register 400 - 9.894 ms - message: Email already taken
+[31merror[39m: Error: "address" is not allowed to be empty
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:175:3)
+[31merror[39m: POST /v1/auth/register 400 - 9.893 ms - message: "address" is not allowed to be empty
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/services/auth.service.js:17:11)
+    at async file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/controllers/auth.controller.js:13:21
+[31merror[39m: POST /v1/auth/login 401 - 72.367 ms - message: Incorrect email or password
+[31merror[39m: Error: "password" is not allowed to be empty
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:175:3)
+[31merror[39m: POST /v1/auth/login 400 - 3.128 ms - message: "password" is not allowed to be empty
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:107:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at initialize (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:188:7)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:214:15)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:219:13
+[31merror[39m: GET /assets/favicon.ico 404 - 20.581 ms - message: Not found
+[31merror[39m: Error: Only PDF and DOCX files are allowed
+    at fileFilter (file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/controllers/upload.controller.js:23:10)
+    at wrappedFileFilter (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\multer@1.4.5-lts.2\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\multer@1.4.5-lts.2\node_modules\multer\lib\make-middleware.js:109:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\busboy@1.6.0\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\busboy@1.6.0\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\busboy@1.6.0\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\streamsearch@1.1.0\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\streamsearch@1.1.0\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\busboy@1.6.0\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+[31merror[39m: POST /v1/cv-evaluation/upload 400 - 37.054 ms - message: Only PDF and DOCX files are allowed
+[31merror[39m: Error: Both CV and Project Report files are required
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/controllers/upload.controller.js:35:11
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/utils/catchAsync.js:2:19
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\route.js:149:13)
+    at done (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\multer@1.4.5-lts.2\node_modules\multer\lib\make-middleware.js:47:7)
+    at indicateDone (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\multer@1.4.5-lts.2\node_modules\multer\lib\make-middleware.js:51:68)
+    at Multipart.<anonymous> (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\multer@1.4.5-lts.2\node_modules\multer\lib\make-middleware.js:168:7)
+    at Multipart.emit (node:events:524:28)
+    at emitCloseNT (node:internal/streams/destroy:148:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[31merror[39m: POST /v1/cv-evaluation/upload 400 - 43.174 ms - message: Both CV and Project Report files are required
+[31merror[39m: Error: ""cv_id"" must be a valid mongo id, ""project_id"" must be a valid mongo id
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\route.js:149:13)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:40:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[31merror[39m: POST /v1/cv-evaluation/evaluate 400 - 11.634 ms - message: ""cv_id"" must be a valid mongo id, ""project_id"" must be a valid mongo id
+[31merror[39m: GET /favicon.ico 404 - 0.637 ms - message: -

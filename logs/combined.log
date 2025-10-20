@@ -3452,3 +3452,1420 @@
 [32minfo[39m: Evaluation completed successfully
 [32minfo[39m: Evaluation completed successfully for ID: 68f5c897bfaffa9103292509
 [32minfo[39m: GET /v1/cv-evaluation/result/eval_mgyp3lgg_e81e95c6374d 200 - 119.137 ms
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: POST /v1/auth/login 200 - 356.049 ms
+[32minfo[39m: Starting async evaluation processing for ID: 68f623c99ff13c3b8d48a319
+[32minfo[39m: Evaluation job eval_mgz2zz1k_4021695b8e1e created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 25.067 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 341 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[33mwarn[39m: OPENROUTER embeddings endpoint failed: retryWithBackoff is not defined, trying LLM-based embeddings
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM completion failed:
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[33mwarn[39m: OPENROUTER embeddings endpoint failed: retryWithBackoff is not defined, trying LLM-based embeddings
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM completion failed:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[33mwarn[39m: OPENROUTER embeddings endpoint failed: retryWithBackoff is not defined, trying LLM-based embeddings
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM completion failed:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[33mwarn[39m: OPENROUTER embeddings endpoint failed: retryWithBackoff is not defined, trying LLM-based embeddings
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM completion failed:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[33mwarn[39m: OPENROUTER embeddings endpoint failed: retryWithBackoff is not defined, trying LLM-based embeddings
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM completion failed:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[33mwarn[39m: OPENROUTER embeddings endpoint failed: retryWithBackoff is not defined, trying LLM-based embeddings
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM completion failed:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[33mwarn[39m: OPENROUTER embeddings endpoint failed: retryWithBackoff is not defined, trying LLM-based embeddings
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM completion failed:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM completion failed:
+[33mwarn[39m: CV evaluation LLM failed: retryWithBackoff is not defined, using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM completion failed:
+[33mwarn[39m: Project evaluation LLM failed: retryWithBackoff is not defined, using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM completion failed:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: retryWithBackoff is not defined
+[31merror[39m: Evaluation processing failed for ID: 68f623c99ff13c3b8d48a319 Overall recommendation generation failed: retryWithBackoff is not defined
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[31merror[39m: Server error: listen EADDRINUSE: address already in use :::3000
+[31merror[39m: Port 3000 is already in use
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting async evaluation processing for ID: 68f62503c32de1883657834a
+[32minfo[39m: Evaluation job eval_mgz36pjx_3f5710daac6c created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 64.806 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 341 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: Evaluation processing failed for ID: 68f62503c32de1883657834a Overall recommendation generation failed: User not found.
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting async evaluation processing for ID: 68f62574ad6cd34be5186f90
+[32minfo[39m: Evaluation job eval_mgz394ze_ef4eef73ca1c created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 59.336 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 341 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: Evaluation processing failed for ID: 68f62574ad6cd34be5186f90 Overall recommendation generation failed: User not found.
+[32minfo[39m: POST /v1/auth/login 200 - 88.823 ms
+[32minfo[39m: Starting async evaluation processing for ID: 68f62689ad6cd34be5186f9b
+[32minfo[39m: Evaluation job eval_mgz3f29w_a1763f9086cf created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 24.094 ms
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: Evaluation processing failed for ID: 68f62689ad6cd34be5186f9b Overall recommendation generation failed: User not found.
+[32minfo[39m: POST /v1/cv-evaluation/upload 201 - 916.180 ms
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting async evaluation processing for ID: 68f628ab825b4464291c8c39
+[32minfo[39m: Evaluation job eval_mgz3qs2l_2123660120c6 created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 72.066 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 341 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[31merror[39m: Evaluation processing failed for ID: 68f628ab825b4464291c8c39 Overall recommendation generation failed: User not found.
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 341 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Test Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[32minfo[39m: Starting evaluation for job title: Test
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[32minfo[39m: Starting evaluation for job title: Test
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[32minfo[39m: Starting evaluation for job title: Test
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[32minfo[39m: Starting evaluation for job title: Test
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[32minfo[39m: Starting evaluation for job title: Test
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: User not found., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: User not found.
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 341 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting async evaluation processing for ID: 68f62ac19a23eeff23bc7796
+[32minfo[39m: Evaluation job eval_mgz427f1_87e246b43f02 created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 55.737 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 341 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[33mwarn[39m: LLM returned non-JSON response, using text content
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[33mwarn[39m: LLM returned non-JSON response, using text content
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting async evaluation processing for ID: 68f62b0fb33565ea8337c688
+[32minfo[39m: Evaluation job eval_mgz43w0p_38e8a1fb70a8 created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 69.777 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 341 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[33mwarn[39m: LLM returned non-JSON response, using text content
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[33mwarn[39m: LLM returned non-JSON response, using text content
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Evaluation completed successfully
+[32minfo[39m: Evaluation completed successfully for ID: 68f62b0fb33565ea8337c688
+[32minfo[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 200 - 35.185 ms
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: GET /v1/dashboard/overview?id=54033322-04b4-4af4-b507-311074618337&vscodeBrowserReqId=1760965461393 200 - 116.115 ms
+[32minfo[39m: GET /v1/dashboard 200 - 116.673 ms
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:58:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at initialize (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:188:7)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:214:15)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:219:13
+[31merror[39m: GET /favicon.ico 404 - 12.152 ms - message: Not found
+[32minfo[39m: GET /v1/dashboard/overview 200 - 3.236 ms
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:58:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at initialize (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:188:7)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:214:15)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:219:13
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 4.489 ms - message: Not found
+[32minfo[39m: GET /v1/dashboard/overview 304 - 5.039 ms
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:58:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at initialize (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:188:7)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:214:15)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:219:13
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 10.683 ms - message: Not found
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: GET /v1/dashboard/overview 304 - 13.836 ms
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:58:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at initialize (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:188:7)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:214:15)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:219:13
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 23.899 ms - message: Not found
+[32minfo[39m: GET /v1/dashboard/overview 200 - 153.720 ms
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:58:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at initialize (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:188:7)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:214:15)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:219:13
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 25.347 ms - message: Not found
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: GET /v1/dashboard/overview?id=54033322-04b4-4af4-b507-311074618337&vscodeBrowserReqId=1760965821420 200 - 27.756 ms
+[32minfo[39m: GET /v1/dashboard/overview 304 - 5.184 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.655 ms - message: -
+[32minfo[39m: GET /v1/dashboard/overview 304 - 1.392 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.297 ms - message: -
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[31merror[39m: Server error: listen EADDRINUSE: address already in use :::3000
+[31merror[39m: Port 3000 is already in use
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: GET /v1/dashboard/overview 304 - 11.243 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.084 ms - message: -
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:101:10)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:38:109
+    at new Promise (<anonymous>)
+[31merror[39m: GET /v1/dashboard/api/stats 401 - 28.220 ms - message: Please authenticate
+[32minfo[39m: GET /v1/dashboard/overview?id=54033322-04b4-4af4-b507-311074618337&vscodeBrowserReqId=1760966221850 200 - 12.656 ms
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:101:10)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:38:109
+    at new Promise (<anonymous>)
+[31merror[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 401 - 32.055 ms - message: Please authenticate
+[32minfo[39m: POST /v1/auth/login 200 - 319.753 ms
+[32minfo[39m: GET /v1/dashboard/overview 304 - 1.956 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 0.915 ms - message: -
+[32minfo[39m: GET /v1/dashboard/api/stats 200 - 86.349 ms
+[32minfo[39m: GET /v1/dashboard 200 - 4.930 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 0.561 ms - message: -
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: GET /v1/dashboard 304 - 12.310 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 2.291 ms - message: -
+[32minfo[39m: GET /v1/dashboard 304 - 5.129 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.353 ms - message: -
+[32minfo[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 200 - 142.260 ms
+[32minfo[39m: GET /v1/dashboard/overview?id=9debd77e-7e2e-4bbe-9b7d-a7498ba32954&vscodeBrowserReqId=1760967082529 200 - 3.926 ms
+[32minfo[39m: GET /v1/dashboard 200 - 317.641 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.411 ms - message: -
+[32minfo[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 304 - 41.812 ms
+[32minfo[39m: GET /v1/dashboard 200 - 87.012 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.622 ms - message: -
+[32minfo[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 304 - 60.015 ms
+[32minfo[39m: GET /v1/dashboard 200 - 128.463 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 0.957 ms - message: -
+[32minfo[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 304 - 26.308 ms
+[32minfo[39m: GET /v1/dashboard 200 - 171.778 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 1.341 ms - message: -
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:101:10)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:38:109
+    at new Promise (<anonymous>)
+[31merror[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 401 - 9.425 ms - message: Please authenticate
+[32minfo[39m: POST /v1/auth/login 200 - 123.205 ms
+[32minfo[39m: GET /v1/dashboard 304 - 1.130 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 0.794 ms - message: -
+[32minfo[39m: GET /v1/dashboard/overview 304 - 1.939 ms
+[31merror[39m: GET /.well-known/appspecific/com.chrome.devtools.json 404 - 0.520 ms - message: -
+[32minfo[39m: GET /v1/dashboard/api/stats 304 - 85.056 ms
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:107:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:265:14)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+[31merror[39m: GET /v1/dashboard/dashboard.html?jobId=eval_mgz43w0p_38e8a1fb70a8 404 - 5.800 ms - message: Not found
+[32minfo[39m: GET /v1/dashboard 304 - 1.116 ms
+[32minfo[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 304 - 32.561 ms
+[32minfo[39m: GET /v1/dashboard 200 - 137.850 ms
+[32minfo[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 304 - 47.748 ms
+[32minfo[39m: GET /v1/dashboard 200 - 187.565 ms
+[32minfo[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 304 - 31.258 ms
+[32minfo[39m: POST /v1/auth/register 201 - 115.768 ms
+[31merror[39m: Error: Email already taken
+    at Object.createUser (file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/services/user.service.js:14:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/controllers/auth.controller.js:6:16
+[31merror[39m: POST /v1/auth/register 400 - 9.894 ms - message: Email already taken
+[31merror[39m: Error: "address" is not allowed to be empty
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:175:3)
+[31merror[39m: POST /v1/auth/register 400 - 9.893 ms - message: "address" is not allowed to be empty
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/services/auth.service.js:17:11)
+    at async file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/controllers/auth.controller.js:13:21
+[31merror[39m: POST /v1/auth/login 401 - 72.367 ms - message: Incorrect email or password
+[31merror[39m: Error: "password" is not allowed to be empty
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:175:3)
+[31merror[39m: POST /v1/auth/login 400 - 3.128 ms - message: "password" is not allowed to be empty
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: POST /v1/auth/login 200 - 1004.247 ms
+[32minfo[39m: GET /v1/docs 301 - 6.652 ms
+[32minfo[39m: GET /v1/docs/ 200 - 11.630 ms
+[32minfo[39m: GET /v1/docs/swagger-ui-init.js 200 - 1.776 ms
+[32minfo[39m: GET /v1/docs/swagger-ui.css 200 - 49.636 ms
+[32minfo[39m: GET /v1/docs/swagger-ui-standalone-preset.js 200 - 196.120 ms
+[32minfo[39m: GET /v1/docs/swagger-ui-bundle.js 200 - 204.514 ms
+[31merror[39m: Error: Not found
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/app.js:107:8
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at initialize (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:328:13)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:188:7)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:214:15)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\cors@2.8.5\node_modules\cors\lib\index.js:219:13
+[31merror[39m: GET /assets/favicon.ico 404 - 20.581 ms - message: Not found
+[32minfo[39m: POST /v1/cv-evaluation/upload 201 - 2114.234 ms
+[31merror[39m: Error: Only PDF and DOCX files are allowed
+    at fileFilter (file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/controllers/upload.controller.js:23:10)
+    at wrappedFileFilter (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\multer@1.4.5-lts.2\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\multer@1.4.5-lts.2\node_modules\multer\lib\make-middleware.js:109:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\busboy@1.6.0\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\busboy@1.6.0\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\busboy@1.6.0\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\streamsearch@1.1.0\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\streamsearch@1.1.0\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\busboy@1.6.0\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+[31merror[39m: POST /v1/cv-evaluation/upload 400 - 37.054 ms - message: Only PDF and DOCX files are allowed
+[31merror[39m: Error: Both CV and Project Report files are required
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/controllers/upload.controller.js:35:11
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/utils/catchAsync.js:2:19
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\route.js:149:13)
+    at done (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\multer@1.4.5-lts.2\node_modules\multer\lib\make-middleware.js:47:7)
+    at indicateDone (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\multer@1.4.5-lts.2\node_modules\multer\lib\make-middleware.js:51:68)
+    at Multipart.<anonymous> (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\multer@1.4.5-lts.2\node_modules\multer\lib\make-middleware.js:168:7)
+    at Multipart.emit (node:events:524:28)
+    at emitCloseNT (node:internal/streams/destroy:148:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[31merror[39m: POST /v1/cv-evaluation/upload 400 - 43.174 ms - message: Both CV and Project Report files are required
+[32minfo[39m: Starting async evaluation processing for ID: 68f6bfbbb88ddee29d63afc9
+[32minfo[39m: Evaluation job eval_mgzqrn0p_c9140dce0eb6 created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 101.012 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 339 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[33mwarn[39m: LLM returned non-JSON response, using text content
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[33mwarn[39m: LLM returned non-JSON response, using text content
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[34mdebug[39m: LLM API Response:
+[32minfo[39m: Evaluation completed successfully
+[32minfo[39m: Evaluation completed successfully for ID: 68f6bfbbb88ddee29d63afc9
+[31merror[39m: Error: ""cv_id"" must be a valid mongo id, ""project_id"" must be a valid mongo id
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\express@4.21.2\node_modules\express\lib\router\route.js:149:13)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:40:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[31merror[39m: POST /v1/cv-evaluation/evaluate 400 - 11.634 ms - message: ""cv_id"" must be a valid mongo id, ""project_id"" must be a valid mongo id
+[32minfo[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 200 - 23.347 ms
+[32minfo[39m: GET /v1/dashboard 200 - 79.445 ms
+[31merror[39m: GET /favicon.ico 404 - 0.637 ms - message: -

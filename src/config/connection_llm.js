@@ -2,6 +2,7 @@ import axios from 'axios';
 import config from './index.js';
 import logger from './logger.js';
 import dotenv from 'dotenv';
+import { retryWithBackoff } from '../utils/helper.js';
 dotenv.config();
 
 class LLMConnection {
@@ -191,7 +192,9 @@ class LLMConnection {
 
       logger.debug(`Making ${this.apiProvider.toUpperCase()} API request with model: ${model}`);
 
-      const response = await this.client.post('/chat/completions', requestPayload);
+      const response = await retryWithBackoff(async () => {
+         return await this.client.post('/chat/completions', requestPayload);
+      }, 3, 2000);
 
       // Log the response for debugging
       logger.debug('LLM API Response:', JSON.stringify(response.data, null, 2));
@@ -354,7 +357,9 @@ class LLMConnection {
           requestPayload.encoding_format = 'float';
         }
 
-        const response = await this.client.post('/embeddings', requestPayload);
+        const response = await retryWithBackoff(async () => {
+            return await this.client.post('/embeddings', requestPayload);
+        });
 
         if (response.data && response.data.data && Array.isArray(response.data.data)) {
           const embeddings = response.data.data.map(item => item.embedding);

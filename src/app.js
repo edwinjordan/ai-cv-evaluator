@@ -21,8 +21,47 @@ if (config.env !== 'test') {
   app.use(morgan.errorHandler);
 }
 
-// set security HTTP headers
-app.use(helmet());
+// set security HTTP headers with relaxed CSP for dashboard
+app.use(helmet({
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc: ["'self'"],
+      scriptSrc: [
+        "'self'",
+        "'unsafe-inline'", // Allow inline scripts for dashboard
+        "'unsafe-eval'", // Allow eval for chart.js
+        "https://cdn.jsdelivr.net",
+        "https://cdn.tailwindcss.com",
+        "https://cdnjs.cloudflare.com"
+      ],
+      scriptSrcAttr: [
+        "'self'",
+        "'unsafe-inline'", // Allow inline event handlers
+        "'unsafe-hashes'" // Allow hashed inline event handlers
+      ],
+      styleSrc: [
+        "'self'",
+        "'unsafe-inline'", // Allow inline styles
+        "https://cdn.tailwindcss.com",
+        "https://cdnjs.cloudflare.com"
+      ],
+      fontSrc: [
+        "'self'",
+        "https://cdnjs.cloudflare.com"
+      ],
+      connectSrc: [
+        "'self'",
+        "http://localhost:3000", // Allow API calls to localhost
+        "https://cdn.jsdelivr.net" // Allow source map downloads
+      ],
+      imgSrc: [
+        "'self'",
+        "data:", // Allow data URLs for images
+        "https:"
+      ]
+    }
+  }
+}));
 
 // parse json request body
 app.use(express.json());
@@ -52,6 +91,16 @@ if (config.env === 'production') {
 
 // v1 api routes
 app.use('/v1', routes);
+
+// Handle Chrome DevTools requests silently
+app.use('/.well-known', (req, res) => {
+  res.status(404).end();
+});
+
+// Handle favicon requests silently
+app.use('/favicon.ico', (req, res) => {
+  res.status(404).end();
+});
 
 // send back a 404 error for any unknown api request
 app.use((req, res, next) => {

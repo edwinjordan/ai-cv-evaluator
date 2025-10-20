@@ -1,8 +1,8 @@
-const { v4: uuidv4 } = require('uuid');
+import { v4 as uuidv4 } from 'uuid';
 
-const generateId = () => uuidv4();
+export const generateId = () => uuidv4();
 
-const calculateWeightedScore = (scores, weights) => {
+export const calculateWeightedScore = (scores, weights) => {
   let totalScore = 0;
   let totalWeight = 0;
 
@@ -15,9 +15,9 @@ const calculateWeightedScore = (scores, weights) => {
   return totalWeight > 0 ? totalScore / totalWeight : 0;
 };
 
-const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+export const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-const retryWithBackoff = async (fn, maxRetries = 3, baseDelay = 1000) => {
+export const retryWithBackoff = async (fn, maxRetries = 3, baseDelay = 1000) => {
   for (let i = 0; i < maxRetries; i++) {
     try {
       return await fn();
@@ -30,14 +30,14 @@ const retryWithBackoff = async (fn, maxRetries = 3, baseDelay = 1000) => {
   }
 };
 
-const sanitizeText = (text) => {
+export const sanitizeText = (text) => {
   return text
     .replace(/\s+/g, ' ')
     .replace(/\n+/g, '\n')
     .trim();
 };
 
-const chunkText = (text, maxChunkSize = 1000) => {
+export const chunkText = (text, maxChunkSize = 1000) => {
   const chunks = [];
   const sentences = text.split(/[.!?]+/);
   let currentChunk = '';
@@ -55,7 +55,8 @@ const chunkText = (text, maxChunkSize = 1000) => {
   return chunks;
 };
 
-module.exports = {
+// Default export for backward compatibility
+export default {
   generateId,
   calculateWeightedScore,
   delay,
