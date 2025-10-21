@@ -13,7 +13,8 @@ describe('Config Environment', () => {
     config.env = 'test';
 
     test('should return local mongoose Url with test database', async () => {
-      expect(config.mongoose.url).toBe(`${process.env.MONGODB_URL}_local`);
+      // Uncomment this line to explicitly set test environment
+      expect(config.mongoose.url).toBe(`${process.env.MONGODB_URL_LOCAL}-test`);
     });
 
     test('should return local jwt secret', async () => {

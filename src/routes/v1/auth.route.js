@@ -151,7 +151,7 @@ router
  */
 router
   .route('/logout')
-  .post(auth('manageUsers'), validate(authValidation.logout), authController.logout);
+  .post(validate(authValidation.logout), authController.logout);
 
 /**
  * @swagger
@@ -287,5 +287,23 @@ router
 router
   .route('/verify-email')
   .post(validate(authValidation.verifyEmail), authController.verifyEmail);
+
+/**
+ * @swagger
+ * /auth/send-verification-email:
+ *   post:
+ *     summary: Send verification email
+ *     tags: [Auth]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       204:
+ *         description: Verification email sent
+ *       401:
+ *         $ref: '#/components/responses/Unauthorized'
+ */
+router
+  .route('/send-verification-email')
+  .post(auth(), authController.sendVerificationEmail);
 
 export default router;

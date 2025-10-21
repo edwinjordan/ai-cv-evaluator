@@ -765,3 +765,209 @@
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 [31merror[39m: POST /v1/cv-evaluation/evaluate 400 - 11.634 ms - message: ""cv_id"" must be a valid mongo id, ""project_id"" must be a valid mongo id
 [31merror[39m: GET /favicon.ico 404 - 0.637 ms - message: -
+error: Evaluation processing failed for ID: 68f6e36c05fe5d8ae3a9123d Client must be connected before running operations
+error: Evaluation processing failed for ID: 68f6e5f8563683efa677968b Client must be connected before running operations
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+error: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[31merror[39m: Evaluation processing failed for ID: 68f6f315b8cf4995b025f2f0 Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[31merror[39m: Evaluation processing failed for ID: 68f6f87295ab30e3c684207d Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Rate limit exceeded: free-models-per-min. 
+[31merror[39m: Evaluation processing failed for ID: 68f6f948b8668d1d4ca91e74 Overall recommendation generation failed: Rate limit exceeded: free-models-per-min. 
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:101:10)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:39:109
+    at new Promise (<anonymous>)
+[31merror[39m: POST /v1/cv-evaluation/evaluate 401 - 25.277 ms - message: Please authenticate
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[31merror[39m: Evaluation processing failed for ID: 68f6fb36351983229d13cca8 Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: No endpoints found for meta-llama/llama-3.1-8b-instruct:free.
+[31merror[39m: Evaluation processing failed for ID: 68f6fe5aa99687d49ef8ecdc Overall recommendation generation failed: No endpoints found for meta-llama/llama-3.1-8b-instruct:free.
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:101:10)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:39:109
+    at new Promise (<anonymous>)
+[31merror[39m: POST /v1/cv-evaluation/evaluate 401 - 507.946 ms - message: Please authenticate
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: cvScore is not defined
+[31merror[39m: Evaluation processing failed for ID: 68f7097ed887c987c6df4fbc cvScore is not defined
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: No endpoints found for meta-llama/llama-3.1-8b-instruct:free.
+[31merror[39m: Evaluation processing failed for ID: 68f709c20c61cade83e5bd99 Overall recommendation generation failed: No endpoints found for meta-llama/llama-3.1-8b-instruct:free.
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: cvScore is not defined
+[31merror[39m: Evaluation processing failed for ID: 68f70bd51458cf1f56354a33 cvScore is not defined
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: cvScore is not defined
+[31merror[39m: Evaluation processing failed for ID: 68f70c727e0a13e15011f0b9 cvScore is not defined
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Rate limit exceeded: free-models-per-min. 
+[31merror[39m: Evaluation processing failed for ID: 68f70d6dc1b06e72dcdebe29 Overall recommendation generation failed: Rate limit exceeded: free-models-per-min. 

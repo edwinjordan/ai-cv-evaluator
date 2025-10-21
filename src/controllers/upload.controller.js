@@ -102,6 +102,11 @@ const getDocument = catchAsync(async (req, res) => {
   
   const document = await documentService.getDocumentById(documentId);
   
+  // Check if document belongs to current user (for user-uploaded documents)
+  if (document.uploadedBy && document.uploadedBy.toString() !== req.user.id) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Document not found');
+  }
+  
   res.send({
     success: true,
     data: {
@@ -159,18 +164,86 @@ const listDocuments = catchAsync(async (req, res) => {
 const deleteDocument = catchAsync(async (req, res) => {
   const { documentId } = req.params;
   
+  // First get the document to check ownership
+  const document = await documentService.getDocumentById(documentId);
+  
+  // Check if document belongs to current user (for user-uploaded documents)
+  if (document.uploadedBy && document.uploadedBy.toString() !== req.user.id) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Document not found');
+  }
+  
   await documentService.deleteDocument(documentId);
   
   res.status(httpStatus.NO_CONTENT).send();
 });
 
-// Multer middleware configurations
-const uploadFields = upload.fields([
-  { name: 'cv', maxCount: 1 },
-  { name: 'project_report', maxCount: 1 }
-]);
+// Multer middleware configurations with error handling
+const uploadFields = (req, res, next) => {
+  const multerUpload = upload.fields([
+    { name: 'cv', maxCount: 1 },
+    { name: 'project_report', maxCount: 1 }
+  ]);
+  
+  multerUpload(req, res, (err) => {
+    if (err) {
+      if (err instanceof multer.MulterError) {
+        if (err.code === 'LIMIT_FILE_SIZE') {
+          return res.status(httpStatus.REQUEST_ENTITY_TOO_LARGE).json({
+            success: false,
+            message: 'File size too large. Maximum allowed size is 10MB.'
+          });
+        }
+        return res.status(httpStatus.BAD_REQUEST).json({
+          success: false,
+          message: err.message
+        });
+      }
+      if (err instanceof ApiError) {
+        return res.status(err.statusCode).json({
+          success: false,
+          message: err.message
+        });
+      }
+      return res.status(httpStatus.INTERNAL_SERVER_ERROR).json({
+        success: false,
+        message: 'Upload failed'
+      });
+    }
+    next();
+  });
+};
 
-const uploadSingle = upload.single('document');
+const uploadSingle = (req, res, next) => {
+  const multerUpload = upload.single('document');
+  
+  multerUpload(req, res, (err) => {
+    if (err) {
+      if (err instanceof multer.MulterError) {
+        if (err.code === 'LIMIT_FILE_SIZE') {
+          return res.status(httpStatus.REQUEST_ENTITY_TOO_LARGE).json({
+            success: false,
+            message: 'File size too large. Maximum allowed size is 10MB.'
+          });
+        }
+        return res.status(httpStatus.BAD_REQUEST).json({
+          success: false,
+          message: err.message
+        });
+      }
+      if (err instanceof ApiError) {
+        return res.status(err.statusCode).json({
+          success: false,
+          message: err.message
+        });
+      }
+      return res.status(httpStatus.INTERNAL_SERVER_ERROR).json({
+        success: false,
+        message: 'Upload failed'
+      });
+    }
+    next();
+  });
+};
 
 export default {
   uploadDocuments,

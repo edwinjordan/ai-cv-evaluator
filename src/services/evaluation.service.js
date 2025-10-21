@@ -219,7 +219,12 @@ class EvaluationService {
         throw quotaError;
       }
       
-      // Handle other errors
+      // Handle other errors - try fallback evaluation
+      // if (llmResult.error && llmResult.error.includes('Rate limit exceeded')) {
+      //   logger.warn('LLM rate limit exceeded, using fallback evaluation method');
+      //   return this.generateFallbackRecommendation(cvScore, projectScore, matchRate);
+      // }
+      
       throw new Error(`Overall recommendation generation failed: ${llmResult.error}`);
     }
 
@@ -633,6 +638,62 @@ Consider:
         'Architecture assessment needed'
       ],
       overallAssessment: `Fallback evaluation completed for project. Content analysis indicates ${Math.round(finalScore * 20)}% quality score. Manual technical review recommended for comprehensive assessment.`
+    };
+  }
+
+  /**
+   * Generate fallback recommendation when LLM is unavailable
+   * @param {number} cvScore - CV score from 0-1
+   * @param {number} projectScore - Project score from 1-5
+   * @param {number} matchRate - Match rate from 0-1
+   * @returns {Object} - Fallback recommendation
+   */
+  generateFallbackRecommendation(cvScore, projectScore, matchRate) {
+    // Calculate overall score based on weighted average
+    const normalizedProjectScore = (projectScore - 1) / 4; // Convert 1-5 to 0-1
+    const overallScore = (cvScore * 0.4) + (normalizedProjectScore * 0.35) + (matchRate * 0.25);
+    
+    // Determine recommendation based on thresholds
+    let recommendation, confidence;
+    if (overallScore >= 0.8) {
+      recommendation = 'Strong Hire';
+      confidence = 'High';
+    } else if (overallScore >= 0.65) {
+      recommendation = 'Hire';
+      confidence = 'Medium-High';
+    } else if (overallScore >= 0.5) {
+      recommendation = 'Consider';
+      confidence = 'Medium';
+    } else if (overallScore >= 0.35) {
+      recommendation = 'Weak Consider';
+      confidence = 'Low-Medium';
+    } else {
+      recommendation = 'No Hire';
+      confidence = 'High';
+    }
+
+    return {
+      overallScore: Math.round(overallScore * 100) / 100,
+      recommendation,
+      confidence,
+      reasoning: `Automated evaluation based on CV quality (${Math.round(cvScore * 100)}%), project assessment (${Math.round(normalizedProjectScore * 100)}%), and job match rate (${Math.round(matchRate * 100)}%). Manual review recommended for final decision.`,
+      strengths: [
+        'Candidate meets basic qualifications',
+        'Application materials submitted completely',
+        'Quantitative assessment completed'
+      ],
+      concerns: [
+        'Detailed analysis unavailable due to system limitations',
+        'Manual interview assessment recommended',
+        'Technical deep-dive needed'
+      ],
+      nextSteps: [
+        'Schedule technical interview',
+        'Conduct detailed code review',
+        'Verify key qualifications manually',
+        'Check references if proceeding'
+      ],
+      note: 'This is a fallback evaluation generated when AI analysis is temporarily unavailable. Results should be supplemented with manual review.'
     };
   }
 }

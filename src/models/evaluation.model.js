@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { toJSON } from './plugins/index.js';
+import { toJSON, paginate } from './plugins/index.js';
 
 const evaluationSchema = mongoose.Schema(
   {
@@ -87,6 +87,7 @@ const evaluationSchema = mongoose.Schema(
 
 // add plugin that converts mongoose to json
 evaluationSchema.plugin(toJSON);
+evaluationSchema.plugin(paginate);
 
 /**
  * Check if job ID exists

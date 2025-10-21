@@ -4869,3 +4869,2419 @@
 [32minfo[39m: GET /v1/cv-evaluation/result/eval_mgz43w0p_38e8a1fb70a8 200 - 23.347 ms
 [32minfo[39m: GET /v1/dashboard 200 - 79.445 ms
 [31merror[39m: GET /favicon.ico 404 - 0.637 ms - message: -
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+info: Starting async evaluation processing for ID: 68f6e36b05fe5d8ae3a91118
+info: Evaluation job eval_mgzw7gbx_1597d678f310 created for user 68f6e36a05fe5d8ae3a910fe
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Found 338 available LLM models
+info: OPENROUTER API connected successfully
+info: ChromaDB connected successfully
+info: ChromaDB collection 'job_descriptions' initialized
+info: ChromaDB collection 'cv_documents' initialized
+info: ChromaDB collection 'project_documents' initialized
+info: ChromaDB collection 'rubrics' initialized
+info: ChromaDB collection 'case_studies' initialized
+info: RAG service initialized successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Senior Full-Stack Developer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Starting async evaluation processing for ID: 68f6e36c05fe5d8ae3a9123d
+info: Evaluation job eval_mgzw7hcq_507200885234 created for user 68f6e36a05fe5d8ae3a910fe
+info: Starting evaluation for job title: Senior Full-Stack Developer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+warn: LLM returned non-JSON response, using text content
+warn: LLM returned non-JSON response, using text content
+warn: LLM returned non-JSON response, using text content
+warn: LLM returned non-JSON response, using text content
+info: Evaluation completed successfully
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+info: Starting async evaluation processing for ID: 68f6e5f7563683efa6779527
+info: Evaluation job eval_mgzwlfe1_cc8681ccb5dc created for user 68f6e5f6563683efa677950a
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Starting async evaluation processing for ID: 68f6e5f8563683efa677968b
+info: Evaluation job eval_mgzwlgki_89aec036fb8f created for user 68f6e5f6563683efa677950a
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Found 339 available LLM models
+info: OPENROUTER API connected successfully
+info: ChromaDB connected successfully
+info: ChromaDB collection 'job_descriptions' initialized
+info: ChromaDB collection 'cv_documents' initialized
+info: ChromaDB collection 'project_documents' initialized
+info: ChromaDB collection 'rubrics' initialized
+info: ChromaDB collection 'case_studies' initialized
+info: RAG service initialized successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Senior Full-Stack Developer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Found 339 available LLM models
+info: OPENROUTER API connected successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Senior Full-Stack Developer
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+info: Generating embeddings using LLM completion method
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+warn: LLM returned non-JSON response, using text content
+warn: LLM returned non-JSON response, using text content
+warn: LLM returned non-JSON response, using text content
+warn: LLM returned non-JSON response, using text content
+info: Evaluation completed successfully
+info: Starting async evaluation processing for ID: 68f6e6c2027d8f8afd317572
+info: Evaluation job eval_mgzwps9e_43afbea5100a created for user 68f6e6c1027d8f8afd317555
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Found 338 available LLM models
+info: OPENROUTER API connected successfully
+info: ChromaDB connected successfully
+info: ChromaDB collection 'job_descriptions' initialized
+info: ChromaDB collection 'cv_documents' initialized
+info: ChromaDB collection 'project_documents' initialized
+info: ChromaDB collection 'rubrics' initialized
+info: ChromaDB collection 'case_studies' initialized
+info: RAG service initialized successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Senior Full-Stack Developer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Starting async evaluation processing for ID: 68f6e6c3027d8f8afd3176d6
+info: Evaluation job eval_mgzwpt9y_d45713b9425c created for user 68f6e6c1027d8f8afd317555
+info: Starting evaluation for job title: Senior Full-Stack Developer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+info: Generating embeddings using LLM completion method
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+info: Starting async evaluation processing for ID: 68f6e7cc7e63bf6128b0f1c4
+info: Evaluation job eval_mgzwvhs8_f96c6d0c4640 created for user 68f6e7cc7e63bf6128b0f1a7
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Found 338 available LLM models
+info: OPENROUTER API connected successfully
+info: ChromaDB connected successfully
+info: ChromaDB collection 'job_descriptions' initialized
+info: ChromaDB collection 'cv_documents' initialized
+info: ChromaDB collection 'project_documents' initialized
+info: ChromaDB collection 'rubrics' initialized
+info: ChromaDB collection 'case_studies' initialized
+info: RAG service initialized successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Senior Full-Stack Developer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Starting async evaluation processing for ID: 68f6e7ce7e63bf6128b0f327
+info: Evaluation job eval_mgzwvj3o_ed0cdbc7244d created for user 68f6e7cc7e63bf6128b0f1a7
+info: Starting evaluation for job title: Senior Full-Stack Developer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+info: Starting async evaluation processing for ID: 68f6e885febbb0349bd6848e
+info: Evaluation job eval_mgzwzg3m_2ac35387ea40 created for user 68f6e884febbb0349bd68475
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Found 338 available LLM models
+info: OPENROUTER API connected successfully
+info: ChromaDB connected successfully
+info: ChromaDB collection 'job_descriptions' initialized
+info: ChromaDB collection 'cv_documents' initialized
+info: ChromaDB collection 'project_documents' initialized
+info: ChromaDB collection 'rubrics' initialized
+info: ChromaDB collection 'case_studies' initialized
+info: RAG service initialized successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Senior Full-Stack Developer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+info: Starting async evaluation processing for ID: 68f6e9a315e7bd17ad66619e
+info: Evaluation job eval_mgzx5ksr_dc99a0bc5a37 created for user 68f6e9a215e7bd17ad666185
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Found 338 available LLM models
+info: OPENROUTER API connected successfully
+info: ChromaDB connected successfully
+info: ChromaDB collection 'job_descriptions' initialized
+info: ChromaDB collection 'cv_documents' initialized
+info: ChromaDB collection 'project_documents' initialized
+info: ChromaDB collection 'rubrics' initialized
+info: ChromaDB collection 'case_studies' initialized
+info: RAG service initialized successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Senior Full-Stack Developer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: POST /v1/auth/login 200 - 232.863 ms
+[32minfo[39m: Starting async evaluation processing for ID: 68f6f315b8cf4995b025f2f0
+[32minfo[39m: Evaluation job eval_mgzylesl_a7c2d4e0c29d created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 73.072 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 338 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[31merror[39m: Evaluation processing failed for ID: 68f6f315b8cf4995b025f2f0 Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting async evaluation processing for ID: 68f6f87295ab30e3c684207d
+[32minfo[39m: Evaluation job eval_mgzzeu3q_fc72b73833e4 created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 215.722 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 338 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[31merror[39m: Evaluation processing failed for ID: 68f6f87295ab30e3c684207d Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting async evaluation processing for ID: 68f6f948b8668d1d4ca91e74
+[32minfo[39m: Evaluation job eval_mgzzjfb0_7929cbec2ed9 created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 271.237 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 338 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Rate limit exceeded: free-models-per-min. 
+[31merror[39m: Evaluation processing failed for ID: 68f6f948b8668d1d4ca91e74 Overall recommendation generation failed: Rate limit exceeded: free-models-per-min. 
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:101:10)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:39:109
+    at new Promise (<anonymous>)
+[31merror[39m: POST /v1/cv-evaluation/evaluate 401 - 25.277 ms - message: Please authenticate
+[32minfo[39m: POST /v1/auth/login 200 - 71.805 ms
+[32minfo[39m: Starting async evaluation processing for ID: 68f6fb36351983229d13cca8
+[32minfo[39m: Evaluation job eval_mgzzu0eg_861ddce2b14a created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 40.840 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 338 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[31merror[39m: Evaluation processing failed for ID: 68f6fb36351983229d13cca8 Overall recommendation generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting async evaluation processing for ID: 68f6fe5aa99687d49ef8ecdc
+[32minfo[39m: Evaluation job eval_mh00b8qx_ae5a257f8fb9 created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 160.333 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 338 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: No endpoints found for meta-llama/llama-3.1-8b-instruct:free., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: No endpoints found for meta-llama/llama-3.1-8b-instruct:free., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: No endpoints found for meta-llama/llama-3.1-8b-instruct:free.
+[31merror[39m: Evaluation processing failed for ID: 68f6fe5aa99687d49ef8ecdc Overall recommendation generation failed: No endpoints found for meta-llama/llama-3.1-8b-instruct:free.
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[31merror[39m: Error: Please authenticate
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:8:19
+    at allFailed (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at strategy.fail (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:314:9)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:106:33
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\jsonwebtoken@9.0.2\node_modules\jsonwebtoken\verify.js:101:10)
+    at module.exports [as JwtVerifier] (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport-jwt@4.0.1\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (E:\Kantor\NodeJs\ai-cv-evaluator\node_modules\.pnpm\passport@0.7.0\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at file:///E:/Kantor/NodeJs/ai-cv-evaluator/src/middlewares/auth.js:39:109
+    at new Promise (<anonymous>)
+[31merror[39m: POST /v1/cv-evaluation/evaluate 401 - 507.946 ms - message: Please authenticate
+[32minfo[39m: POST /v1/auth/login 200 - 242.082 ms
+[32minfo[39m: Starting async evaluation processing for ID: 68f7097ed887c987c6df4fbc
+[32minfo[39m: Evaluation job eval_mh020dbq_78df7c8cfbca created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 44.749 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 338 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: LLM rate limit exceeded, using fallback evaluation method
+[31merror[39m: Evaluation failed: cvScore is not defined
+[31merror[39m: Evaluation processing failed for ID: 68f7097ed887c987c6df4fbc cvScore is not defined
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting async evaluation processing for ID: 68f709c20c61cade83e5bd99
+[32minfo[39m: Evaluation job eval_mh021u2d_976f3ed0380e created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 104.883 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 338 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: No endpoints found for meta-llama/llama-3.1-8b-instruct:free., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: No endpoints found for meta-llama/llama-3.1-8b-instruct:free., using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to mistralai/mistral-7b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to openai/gpt-oss-20b:free
+[34mdebug[39m: Making OPENROUTER API request with model: openai/gpt-oss-20b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to nvidia/nemotron-nano-9b-v2:free
+[34mdebug[39m: Making OPENROUTER API request with model: nvidia/nemotron-nano-9b-v2:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to z-ai/glm-4.5-air:free
+[34mdebug[39m: Making OPENROUTER API request with model: z-ai/glm-4.5-air:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to alibaba/tongyi-deepresearch-30b-a3b:free
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[33mwarn[39m: Rate limit hit for current model. Trying alternative model...
+[32minfo[39m: Switching from rate-limited model mistralai/mistral-7b-instruct:free to meta-llama/llama-3.1-8b-instruct:free
+[34mdebug[39m: Making OPENROUTER API request with model: meta-llama/llama-3.1-8b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: No endpoints found for meta-llama/llama-3.1-8b-instruct:free.
+[31merror[39m: Evaluation processing failed for ID: 68f709c20c61cade83e5bd99 Overall recommendation generation failed: No endpoints found for meta-llama/llama-3.1-8b-instruct:free.
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting async evaluation processing for ID: 68f70bd51458cf1f56354a33
+[32minfo[39m: Evaluation job eval_mh02d7eu_367532c35d84 created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 98.037 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 338 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: alibaba/tongyi-deepresearch-30b-a3b:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: LLM rate limit exceeded, using fallback evaluation method
+[31merror[39m: Evaluation failed: cvScore is not defined
+[31merror[39m: Evaluation processing failed for ID: 68f70bd51458cf1f56354a33 cvScore is not defined
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting async evaluation processing for ID: 68f70c727e0a13e15011f0b9
+[32minfo[39m: Evaluation job eval_mh02gkf4_52dc83542bb0 created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 76.828 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 338 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: LLM rate limit exceeded, using fallback evaluation method
+[31merror[39m: Evaluation failed: cvScore is not defined
+[31merror[39m: Evaluation processing failed for ID: 68f70c727e0a13e15011f0b9 cvScore is not defined
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired
+[32minfo[39m: Starting async evaluation processing for ID: 68f70d6dc1b06e72dcdebe29
+[32minfo[39m: Evaluation job eval_mh02lyry_c865b6d4db13 created for user 68f486a8e206f5fe383cd606
+[32minfo[39m: POST /v1/cv-evaluation/evaluate 202 - 69.035 ms
+[32minfo[39m: Found API key, detecting provider...
+[32minfo[39m: Detected API provider: openrouter
+[32minfo[39m: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+[32minfo[39m: Found 338 available LLM models
+[32minfo[39m: OPENROUTER API connected successfully
+[32minfo[39m: ChromaDB connected successfully
+[32minfo[39m: ChromaDB collection 'job_descriptions' initialized
+[32minfo[39m: ChromaDB collection 'cv_documents' initialized
+[32minfo[39m: ChromaDB collection 'project_documents' initialized
+[32minfo[39m: ChromaDB collection 'rubrics' initialized
+[32minfo[39m: ChromaDB collection 'case_studies' initialized
+[32minfo[39m: RAG service initialized successfully
+[32minfo[39m: Evaluation service initialized successfully
+[32minfo[39m: Starting evaluation for job title: Senior Full Stack Developer
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'rubrics' is empty, returning empty results
+[32minfo[39m: No documents found in collection rubrics
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'job_descriptions' is empty, returning empty results
+[32minfo[39m: No documents found in collection job_descriptions
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'case_studies' is empty, returning empty results
+[32minfo[39m: No documents found in collection case_studies
+[34mdebug[39m: Attempting OPENROUTER embeddings with model: text-embedding-ada-002
+[32minfo[39m: Generating embeddings using LLM completion method
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'project_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection project_documents
+[32minfo[39m: Retrieved project evaluation context successfully
+[31merror[39m: LLM API error response:
+[32minfo[39m: Collection 'cv_documents' is empty, returning empty results
+[32minfo[39m: No documents found in collection cv_documents
+[32minfo[39m: Retrieved evaluation context successfully
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: CV evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[33mwarn[39m: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+[34mdebug[39m: Making OPENROUTER API request with model: mistralai/mistral-7b-instruct:free
+[31merror[39m: LLM API error response:
+[31merror[39m: Evaluation failed: Overall recommendation generation failed: Rate limit exceeded: free-models-per-min. 
+[31merror[39m: Evaluation processing failed for ID: 68f70d6dc1b06e72dcdebe29 Overall recommendation generation failed: Rate limit exceeded: free-models-per-min. 
+[32minfo[39m: Starting server...
+[32minfo[39m: Configuration loaded: {"port":3000,"env":"development"}
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Attempting to listen on port 3000...
+[32minfo[39m: 🚀 Server is running on port 3000
+[32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
+[32minfo[39m: Server listening event fired

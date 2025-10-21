@@ -1,6 +1,7 @@
 import httpStatus from 'http-status';
 import tokenService from './token.service.js';
 import userService from './user.service.js';
+import emailService from './email.service.js';
 import Token from '../models/token.model.js';
 import ApiError from '../utils/ApiError.js';
 import { tokenTypes } from '../config/tokens.js';
@@ -29,7 +30,7 @@ const logout = async (refreshToken) => {
   if (!refreshTokenDoc) {
     throw new ApiError(httpStatus.NOT_FOUND, 'Not found');
   }
-  await refreshTokenDoc.remove();
+  await Token.deleteOne({ _id: refreshTokenDoc._id });
 };
 
 /**
@@ -44,11 +45,25 @@ const refreshAuth = async (refreshToken) => {
     if (!user) {
       throw new Error();
     }
-    await refreshTokenDoc.remove();
+    await Token.deleteOne({ _id: refreshTokenDoc._id });
     return tokenService.generateAuthTokens(user);
   } catch (error) {
     throw new ApiError(httpStatus.UNAUTHORIZED, 'Please authenticate');
   }
+};
+
+/**
+ * Forgot password
+ * @param {string} email
+ * @returns {Promise}
+ */
+const forgotPassword = async (email) => {
+  const user = await userService.getUserByEmail(email);
+  if (!user) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'No users found with this email');
+  }
+  const resetPasswordToken = await tokenService.generateResetPasswordToken(email);
+  await emailService.sendResetPasswordEmail(email, resetPasswordToken);
 };
 
 /**
@@ -90,10 +105,22 @@ const verifyEmail = async (verifyEmailToken) => {
   }
 };
 
+/**
+ * Send verification email
+ * @param {User} user
+ * @returns {Promise}
+ */
+const sendVerificationEmail = async (user) => {
+  const verifyEmailToken = await tokenService.generateVerifyEmailToken(user);
+  await emailService.sendVerificationEmail(user.email, verifyEmailToken);
+};
+
 export default {
   loginUserWithEmailAndPassword,
   logout,
   refreshAuth,
+  forgotPassword,
   resetPassword,
   verifyEmail,
+  sendVerificationEmail,
 };

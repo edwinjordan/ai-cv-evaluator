@@ -18,13 +18,14 @@ const verifyCallback = (req, resolve, reject, requiredRights) => async (err, use
     
     const hasRequiredRights = requiredRights.every((requiredRight) => userRights.includes(requiredRight));
     
-    if (!hasRequiredRights) {
-      return reject(new ApiError(httpStatus.FORBIDDEN, `Access denied. Required permissions: ${requiredRights.join(', ')}`));
+    if (!hasRequiredRights && req.params.userId !== user.id) {
+      return reject(new ApiError(httpStatus.FORBIDDEN, 'Forbidden'));
     }
     
-    // Additional check for user-specific resources
-    if (requiredRights.includes('manageUsers') && req.params.userId && req.params.userId !== user.id && user.role !== 'admin') {
-      return reject(new ApiError(httpStatus.FORBIDDEN, 'Cannot access other user resources'));
+    // Additional check for user-specific resources - allow if userId matches user.id
+    if (req.params.userId && req.params.userId === user.id) {
+      // Allow access to own resources even without specific rights
+      return resolve();
     }
   }
 

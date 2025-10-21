@@ -27,7 +27,7 @@ const refreshTokens = catchAsync(async (req, res) => {
 });
 
 const forgotPassword = catchAsync(async (req, res) => {
-  await authService.resetPassword(req.body.email);
+  await authService.forgotPassword(req.body.email);
   res.status(httpStatus.NO_CONTENT).send();
 });
 
@@ -41,6 +41,11 @@ const verifyEmail = catchAsync(async (req, res) => {
   res.status(httpStatus.NO_CONTENT).send();
 });
 
+const sendVerificationEmail = catchAsync(async (req, res) => {
+  await authService.sendVerificationEmail(req.user);
+  res.status(httpStatus.NO_CONTENT).send();
+});
+
 export default {
   register,
   login,
@@ -49,4 +54,5 @@ export default {
   forgotPassword,
   resetPassword,
   verifyEmail,
+  sendVerificationEmail,
 };
