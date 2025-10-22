@@ -7285,3 +7285,643 @@ error: LLM API error response:
 [32minfo[39m: 🚀 Server is running on port 3000
 [32minfo[39m: 📚 API Documentation: http://localhost:3000/v1/docs
 [32minfo[39m: Server listening event fired
+info: Starting async evaluation processing for ID: 68f85f8eec4f5c2376290176
+info: Evaluation job eval_mh1i58zq_fd7515bd050d created for user 68f85f8cec4f5c2376290153
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Starting async evaluation processing for ID: 68f85f8eec4f5c23762901a5
+info: Evaluation job eval_mh1i59hg_297d63ca3126 created for user 68f85f8cec4f5c2376290154
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Found 338 available LLM models
+info: OPENROUTER API connected successfully
+info: ChromaDB connected successfully
+info: ChromaDB collection 'job_descriptions' initialized
+info: ChromaDB collection 'cv_documents' initialized
+info: ChromaDB collection 'project_documents' initialized
+info: ChromaDB collection 'rubrics' initialized
+info: ChromaDB collection 'case_studies' initialized
+info: RAG service initialized successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Backend Engineer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Found 339 available LLM models
+info: OPENROUTER API connected successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Backend Engineer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Starting async evaluation processing for ID: 68f85f90ec4f5c2376290301
+info: Evaluation job eval_mh1i5apj_2dcc8b814fdc created for user 68f85f8cec4f5c2376290153
+info: Starting evaluation for job title: Full Stack Developer
+info: Starting async evaluation processing for ID: 68f85f90ec4f5c2376290316
+info: Evaluation job eval_mh1i5ask_fd62eafb7360 created for user 68f85f8cec4f5c2376290153
+info: Starting evaluation for job title: DevOps Engineer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Starting async evaluation processing for ID: 68f85f90ec4f5c2376290332
+info: Evaluation job eval_mh1i5az1_a5bce3dac365 created for user 68f85f8cec4f5c2376290153
+info: Starting async evaluation processing for ID: 68f85f90ec4f5c2376290334
+info: Evaluation job eval_mh1i5az5_26a23e3a98e3 created for user 68f85f8cec4f5c2376290153
+info: Starting async evaluation processing for ID: 68f85f90ec4f5c2376290336
+info: Evaluation job eval_mh1i5az8_22b06fbb8411 created for user 68f85f8cec4f5c2376290153
+info: Starting evaluation for job title: Software Engineer
+info: Starting evaluation for job title: Software Engineer
+info: Starting evaluation for job title: Software Engineer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+info: Starting async evaluation processing for ID: 68f8672498528821015d8ad3
+info: Evaluation job eval_mh1javmq_be2c668f5870 created for user 68f8672398528821015d8ac0
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Found 339 available LLM models
+info: OPENROUTER API connected successfully
+info: ChromaDB connected successfully
+info: ChromaDB collection 'job_descriptions' initialized
+info: ChromaDB collection 'cv_documents' initialized
+info: ChromaDB collection 'project_documents' initialized
+info: ChromaDB collection 'rubrics' initialized
+info: ChromaDB collection 'case_studies' initialized
+info: RAG service initialized successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Backend Engineer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+info: Starting async evaluation processing for ID: 68f8828a552aaed3b2e9e674
+info: Evaluation job eval_mh1nh7q5_c5aa81364afc created for user 68f88289552aaed3b2e9e661
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Found 339 available LLM models
+info: OPENROUTER API connected successfully
+info: ChromaDB connected successfully
+info: ChromaDB collection 'job_descriptions' initialized
+info: ChromaDB collection 'cv_documents' initialized
+info: ChromaDB collection 'project_documents' initialized
+info: ChromaDB collection 'rubrics' initialized
+info: ChromaDB collection 'case_studies' initialized
+info: RAG service initialized successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Backend Engineer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+info: Starting async evaluation processing for ID: 68f885b0db84cf89aa6f8ea8
+info: Evaluation job eval_mh1nyhkm_951e8c2a20e7 created for user 68f885afdb84cf89aa6f8e85
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Starting async evaluation processing for ID: 68f885b0db84cf89aa6f8ed7
+info: Evaluation job eval_mh1nyi0x_2889771d272b created for user 68f885afdb84cf89aa6f8e86
+info: Found API key, detecting provider...
+info: Detected API provider: openrouter
+info: Connecting to OPENROUTER API at https://openrouter.ai/api/v1...
+info: Found 339 available LLM models
+info: OPENROUTER API connected successfully
+info: ChromaDB connected successfully
+info: ChromaDB collection 'job_descriptions' initialized
+info: ChromaDB collection 'cv_documents' initialized
+info: ChromaDB collection 'project_documents' initialized
+info: ChromaDB collection 'rubrics' initialized
+info: ChromaDB collection 'case_studies' initialized
+info: RAG service initialized successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Backend Engineer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Found 339 available LLM models
+info: OPENROUTER API connected successfully
+info: Evaluation service initialized successfully
+info: Starting evaluation for job title: Backend Engineer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Starting async evaluation processing for ID: 68f885b2db84cf89aa6f9033
+info: Evaluation job eval_mh1nyjnm_27a0d615fb9f created for user 68f885afdb84cf89aa6f8e85
+info: Starting evaluation for job title: Full Stack Developer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Starting async evaluation processing for ID: 68f885b3db84cf89aa6f9048
+info: Evaluation job eval_mh1nyjs5_a36478c24126 created for user 68f885afdb84cf89aa6f8e85
+info: Starting evaluation for job title: DevOps Engineer
+info: Starting async evaluation processing for ID: 68f885b3db84cf89aa6f9064
+info: Evaluation job eval_mh1nyjxn_389cf17232da created for user 68f885afdb84cf89aa6f8e85
+info: Starting async evaluation processing for ID: 68f885b3db84cf89aa6f9066
+info: Evaluation job eval_mh1nyjxu_b2106c5c5d9e created for user 68f885afdb84cf89aa6f8e85
+info: Starting async evaluation processing for ID: 68f885b3db84cf89aa6f9068
+info: Evaluation job eval_mh1nyjy0_bb62c9a68fe8 created for user 68f885afdb84cf89aa6f8e85
+info: Starting evaluation for job title: Software Engineer
+info: Starting evaluation for job title: Software Engineer
+info: Starting evaluation for job title: Software Engineer
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Generating embeddings using LLM completion method
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+error: LLM API error response:
+info: Generating embeddings using LLM completion method
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+error: LLM API error response:
+info: Collection 'job_descriptions' is empty, returning empty results
+info: No documents found in collection job_descriptions
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+error: LLM API error response:
+info: Collection 'rubrics' is empty, returning empty results
+info: No documents found in collection rubrics
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+error: LLM API error response:
+info: Collection 'case_studies' is empty, returning empty results
+info: No documents found in collection case_studies
+info: Generating embeddings using LLM completion method
+info: Generating embeddings using LLM completion method
+error: LLM API error response:
+info: Collection 'project_documents' is empty, returning empty results
+info: No documents found in collection project_documents
+info: Retrieved project evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+info: Collection 'cv_documents' is empty, returning empty results
+info: No documents found in collection cv_documents
+info: Retrieved evaluation context successfully
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: CV evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day, using fallback evaluation
+error: LLM API error response:
+warn: Project evaluation LLM failed: Rate limit exceeded: free-models-per-min. , using fallback evaluation
+error: LLM API error response:

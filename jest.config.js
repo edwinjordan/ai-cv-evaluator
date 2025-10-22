@@ -12,5 +12,7 @@ export default {
     '!src/**/*.spec.js'
   ],
   coverageDirectory: 'coverage',
-  coverageReporters: ['text', 'lcov', 'html']
+  coverageReporters: ['text', 'lcov', 'html'],
+  testTimeout: 30000, // 30 seconds
+  setupFilesAfterEnv: ['<rootDir>/tests/setupTests.js']
 };
