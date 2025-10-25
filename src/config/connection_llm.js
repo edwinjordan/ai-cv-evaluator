@@ -68,7 +68,7 @@ class LLMConnection {
           'HTTP-Referer': config.llm.httpReferer || 'http://localhost:3002',
           'X-Title': config.llm.appName || 'AI CV Evaluator'
         },
-        defaultModel: 'mistralai/mistral-7b-instruct:free',
+        defaultModel: 'meta-llama/llama-3.2-3b-instruct:free',
         embeddingModel: 'text-embedding-ada-002'
       }
     };
