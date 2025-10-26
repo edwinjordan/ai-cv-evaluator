@@ -381,6 +381,11 @@ docker-compose up -d
 npm run dev
 ```
 
+### Running Worker
+```bash
+npm run worker
+```
+
 ### Running Tests
 
 ```bash
