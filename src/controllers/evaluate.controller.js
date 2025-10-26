@@ -1,10 +1,12 @@
 import catchAsync from '../utils/catchAsync.js';
 import ApiError from '../utils/ApiError.js';
-import { documentService, evaluationService } from '../services/index.js';
+import { documentService, evaluationCreationService } from '../services/index.js';
+import evaluationService from '../services/evaluationRaceCondition.service.js';
 import { Evaluation } from '../models/index.js';
 import { generateJobId } from '../utils/common.js';
 import httpStatus from 'http-status';
 import logger from '../config/logger.js';
+import evaluationQueue from '../queues/evaluationQueue.js';
 
 /**
  * Start CV evaluation job
@@ -36,36 +38,71 @@ const startEvaluation = catchAsync(async (req, res) => {
     throw new ApiError(httpStatus.BAD_REQUEST, 'Document must be of type project report');
   }
 
-  // Generate unique job ID
+  // Generate unique job ID with timestamp to prevent race conditions
   const jobId = generateJobId();
+  
+  try {
+    // Create evaluation record using atomic operation
+    const evaluation = await evaluationService.createEvaluationAtomic({
+      jobId,
+      userId,
+      jobTitle: job_title,
+      cvDocumentId: cvDocument._id,
+      projectDocumentId: projectDocument._id
+    });
 
-  // Create evaluation job
-  const evaluation = await Evaluation.create({
-    jobId,
-    createdBy: userId,
-    jobTitle: job_title,
-    cvDocumentId: cv_id,
-    projectDocumentId: project_id,
-    status: 'queued',
-    createdAt: new Date()
-  });
+    // Ensure evaluation is committed to database before queuing
+    // await new Promise(resolve => setTimeout(resolve, 100));
 
-  // Start evaluation processing asynchronously
-  processEvaluationAsync(evaluation._id, {
-    jobTitle: job_title,
-    cvContent: cvDocument.extractedText,
-    projectContent: projectDocument.extractedText,
-    userId
-  });
+    // Add job to queue for automatic processing
+    // const queueJob = await addJob({
+    //   jobId,
+    //   evaluationId: evaluation._id.toString(),
+    //   jobTitle: job_title,
+    //   cvContent: cvDocument.extractedText,
+    //   projectContent: projectDocument.extractedText,
+    //   userId,
+    //   status: 'queued'
+    // });
 
-  logger.info(`Evaluation job ${jobId} created for user ${userId}`);
+     const queueJob = await evaluationQueue.addEvaluationJob({
+            jobId,
+            evaluationId: evaluation._id.toString(),
+            jobTitle: job_title,
+            cvContent: cvDocument.extractedText,
+            projectContent: projectDocument.extractedText,
+            userId,
+            status: 'queued'
+     });
 
-  res.status(httpStatus.ACCEPTED).json({
-    message: 'Evaluation job started successfully',
-    job_id: jobId,
-    status: 'queued',
-    estimated_completion_time: '5-10 minutes'
-  });
+    logger.info(`Evaluation job ${jobId} queued successfully`);
+
+    res.status(httpStatus.ACCEPTED).json({
+      message: 'Evaluation job started successfully',
+      job_id: jobId,
+      status: 'queued',
+      queue_position: 1,
+      estimated_completion_time: '5-10 minutes'
+    });
+
+  } catch (error) {
+    logger.error(`❌ Failed to start evaluation job: ${error.message}`, {
+      jobId,
+      userId,
+      error: error.stack
+    });
+    
+    // Provide more specific error messages based on the error type
+    if (error.message.includes('Redis')) {
+      throw new ApiError(httpStatus.SERVICE_UNAVAILABLE, 'Queue service temporarily unavailable. Please try again later.');
+    } else if (error.message.includes('validation')) {
+      throw new ApiError(httpStatus.BAD_REQUEST, `Validation error: ${error.message}`);
+    } else if (error.message.includes('duplicate')) {
+      throw new ApiError(httpStatus.CONFLICT, 'Evaluation job already exists for this request.');
+    } else {
+      throw new ApiError(httpStatus.INTERNAL_SERVER_ERROR, `Failed to start evaluation job: ${error.message}`);
+    }
+  }
 });
 
 /**
