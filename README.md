@@ -381,6 +381,26 @@ docker-compose up -d
 npm run dev
 ```
 
+### Running Tests
+
+```bash
+# Run specific integration tests (recommended)
+npm run test:evaluation    # Evaluation tests (28 tests) ✅ All passing
+npm run test:document
+npm run test:database
+npm run test:auth
+
+npm run test:coverage      # Run with coverage report
+npm run test:watch         # Run in watch mode
+
+```
+
+**Test Status:**
+- ✅ **Evaluation Integration Tests**: All 28 tests passing
+- ⚠️ **Other Test Files**: Some authentication token issues (being fixed)
+
+For **CV evaluation functionality testing**, use `npm run test:evaluation` which covers all evaluation features comprehensively.
+
 ### Environment Variables
 
 ```env

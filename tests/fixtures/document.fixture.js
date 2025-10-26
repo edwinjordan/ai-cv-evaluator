@@ -1,7 +1,8 @@
 import mongoose from 'mongoose';
 import { faker } from '@faker-js/faker';
 import Document from '../../src/models/document.model.js';
-import Evaluation from '../../src/models/evaluation.model.js';
+import { Evaluation } from '../../src/models/index.js';
+import { userOne, userTwo } from './user.fixture.js';
 
 // Sample PDF buffer for testing
 const samplePdfBuffer = Buffer.from(
@@ -33,7 +34,7 @@ const cvDocumentOne = {
   size: 2048576, // 2MB
   path: '/uploads/cv_test_file.pdf',
   type: 'cv',
-  extractedText: 'John Doe\nSenior Software Engineer\nExperience: 5 years in full-stack development\nSkills: JavaScript, React, Node.js, MongoDB, Python, Docker\nEducation: Computer Science, MIT\nProjects: E-commerce platform, Real-time chat application',
+  extractedText: 'John Doe\nSenior Software Engineer\nEmail: john.doe@email.com\nPhone: +1234567890\n\nExperience:\n- Senior Frontend Developer at TechCorp (2020-2023)\n- Full Stack Developer at StartupXYZ (2018-2020)\n- Junior Developer at WebSolutions (2016-2018)\n\nSkills:\n- JavaScript, TypeScript, React, Node.js\n- MongoDB, PostgreSQL, Redis\n- AWS, Docker, Kubernetes\n- Git, CI/CD, Agile\n\nEducation:\n- Bachelor of Computer Science, University of Technology (2016)\n\nAchievements:\n- Led team of 5 developers\n- Improved application performance by 40%\n- AWS Certified Solutions Architect',
   vectorized: true,
   uploadedBy: null, // Will be set to user ID in tests
   metadata: {
@@ -51,7 +52,7 @@ const projectDocumentOne = {
   size: 3145728, // 3MB
   path: '/uploads/project_test_file.pdf',
   type: 'project_report',
-  extractedText: 'E-commerce Platform Development\nProject Overview: Built a scalable e-commerce platform using MERN stack\nTechnologies Used: React, Node.js, Express, MongoDB, Redis\nFeatures: User authentication, payment processing, inventory management\nPerformance: Handled 10,000 concurrent users\nDeployment: AWS EC2, Docker containers\nTesting: Jest, Cypress, 95% code coverage',
+  extractedText: 'E-commerce Platform Development\nProject Overview: Built a scalable e-commerce platform using MERN stack\nTechnologies Used: React, Node.js, Express, MongoDB, Redis\nFeatures: User authentication, payment processing, inventory management\nPerformance: Handled 10,000 concurrent users\nDeployment: AWS EC2, Docker containers\nTesting: Jest, Cypress, 95% code coverage\n\nArchitecture:\n- Microservices design pattern\n- RESTful API with GraphQL\n- Event-driven architecture\n- Redis caching layer\n\nDatabase Design:\n- MongoDB for product catalog\n- PostgreSQL for transactions\n- Redis for session management',
   vectorized: true,
   uploadedBy: null, // Will be set to user ID in tests
   metadata: {
@@ -69,7 +70,7 @@ const jobDescriptionOne = {
   size: 512000, // 500KB
   path: '/uploads/job_desc_test.pdf',
   type: 'job_description',
-  extractedText: 'Senior Full-Stack Developer\nRequirements:\n- 3+ years experience in web development\n- Proficiency in JavaScript, React, Node.js\n- Experience with databases (MongoDB, PostgreSQL)\n- Knowledge of cloud platforms (AWS, Azure)\n- Strong problem-solving skills\n- Bachelor\'s degree in Computer Science or related field',
+  extractedText: 'Senior Full-Stack Developer\nRequirements:\n- 3+ years experience in web development\n- Proficiency in JavaScript, React, Node.js\n- Experience with databases (MongoDB, PostgreSQL)\n- Knowledge of cloud platforms (AWS, Azure)\n- Strong problem-solving skills\n- Bachelor\'s degree in Computer Science or related field\n\nResponsibilities:\n- Design and develop web applications\n- Collaborate with cross-functional teams\n- Mentor junior developers\n- Ensure code quality and best practices',
   vectorized: true,
   uploadedBy: null,
   metadata: {
@@ -87,7 +88,7 @@ const cvRubricOne = {
   size: 256000, // 250KB
   path: '/uploads/cv_rubric_test.pdf',
   type: 'cv_rubric',
-  extractedText: 'CV Evaluation Rubric\nCriteria:\n1. Technical Skills (30%): Relevant programming languages, frameworks, tools\n2. Experience Level (25%): Years of experience, project complexity\n3. Achievements (20%): Awards, certifications, notable accomplishments\n4. Cultural Fit (15%): Communication skills, teamwork, leadership\n5. Education (10%): Degree relevance, institution reputation',
+  extractedText: 'CV Evaluation Rubric\nCriteria:\n1. Technical Skills (30%): Relevant programming languages, frameworks, tools\n2. Experience Level (25%): Years of experience, project complexity\n3. Achievements (20%): Awards, certifications, notable accomplishments\n4. Cultural Fit (15%): Communication skills, teamwork, leadership\n5. Education (10%): Degree relevance, institution reputation\n\nScoring Guide:\n- Excellent (4): Exceeds expectations\n- Good (3): Meets expectations\n- Fair (2): Below expectations\n- Poor (1): Does not meet requirements',
   vectorized: true,
   uploadedBy: null,
   metadata: {
@@ -128,8 +129,15 @@ const evaluationTwo = {
     },
     project_score: 4.2,
     project_feedback: 'Excellent project demonstrating scalability and modern development practices. Good use of technologies and impressive performance metrics.',
-    overall_summary: 'HIRE',
-    detailed_feedback: 'Candidate shows strong technical competency and project execution skills. Recommended for next interview round.',
+    project_breakdown: {
+      correctness: 4,
+      code_quality: 4,
+      resilience: 4,
+      documentation: 4,
+      creativity: 5
+    },
+    overall_summary: 'HIRE - Strong candidate with excellent technical skills and project execution',
+    detailed_feedback: 'Candidate shows strong technical competency and project execution skills. The e-commerce platform project demonstrates good understanding of scalable architecture and modern development practices.',
     recommendations: [
       'Schedule technical interview focusing on system design',
       'Discuss scalability approaches in detail',
