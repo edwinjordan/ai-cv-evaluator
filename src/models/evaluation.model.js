@@ -39,27 +39,43 @@ const evaluationSchema = mongoose.Schema(
       },
       cv_breakdown: {
         technical_skills: { type: Number, min: 0, max: 1 },
-        experience_level: { type: Number, min: 0, max: 1 },
-        achievements: { type: Number, min: 0, max: 1 },
-        cultural_fit: { type: Number, min: 0, max: 1 },
+        experience: { type: Number, min: 0, max: 1 },
+        education: { type: Number, min: 0, max: 1 },
+        soft_skills: { type: Number, min: 0, max: 1 },
       },
-      project_score: {
+      project_match_rate: {
         type: Number,
-        min: 1,
-        max: 5,
+        min: 0,
+        max: 1,
       },
       project_feedback: {
         type: String,
       },
       project_breakdown: {
-        correctness: { type: Number, min: 1, max: 5 },
-        code_quality: { type: Number, min: 1, max: 5 },
-        resilience: { type: Number, min: 1, max: 5 },
-        documentation: { type: Number, min: 1, max: 5 },
-        creativity: { type: Number, min: 1, max: 5 },
+        technical_complexity: { type: Number, min: 0, max: 1 },
+        problem_solving: { type: Number, min: 0, max: 1 },
+        implementation: { type: Number, min: 0, max: 1 },
+        innovation: { type: Number, min: 0, max: 1 },
       },
       overall_summary: {
         type: String,
+      },
+      overallScore: {
+        type: Number,
+        min: 0,
+        max: 1,
+      },
+      matchPercentage: {
+        type: Number,
+        min: 0,
+        max: 100,
+      },
+      recommendation: {
+        type: String,
+        enum: ['Recommended', 'Consider', 'Not Recommended'],
+      },
+      generatedAt: {
+        type: Date,
       },
     },
     errorMessage: {

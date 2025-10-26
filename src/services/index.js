@@ -4,4 +4,5 @@ export { default as tokenService } from './token.service.js';
 export { default as documentService } from './document.service.js';
 export { default as ragService } from './rag.service.js';
 export { default as evaluationService } from './evaluation.service.js';
+export { default as evaluationCreationService } from './evaluationCreation.service.js';
 export { default as emailService } from './email.service.js';
